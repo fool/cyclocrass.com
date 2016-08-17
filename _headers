@@ -1,0 +1,5 @@
+http://cyclocrass.com/*
+	Basic-Auth: foo:bar
+
+http://www.cyclocrass.com/*
+	Basic-Auth: foo:bar

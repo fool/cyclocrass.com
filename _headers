@@ -1,5 +1,5 @@
-http://cyclocrass.com/*
-	Basic-Auth: foo:bar
+http://cyclocrass.com/testing.html
+	X-My-Header: yup
 
-http://www.cyclocrass.com/*
-	Basic-Auth: foo:bar
+http://www.cyclocrass.com/testing.html
+	X-My-Header: yup

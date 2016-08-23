@@ -4,5 +4,5 @@ http://cyclocrass.com/testing.html
 http://www.cyclocrass.com/testing.html
 	X-My-Header: yup
 
-*.mp4
+/*.mp4
 	X-Robots-Tag: "noindex,nofollow"

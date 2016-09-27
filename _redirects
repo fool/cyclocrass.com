@@ -1,3 +1,2 @@
 http://testing.cyclocrass.com/	http://cyclocrass.com/testing.html
-https://www.cyclocrass.com/404.html https://www.cyclocrass.com/not_found_spanish.html 302 Language=en,fr,de,sv,is,nb
-https://www.cyclocrass.com/404.html https://www.cyclocrass.com/not_found.html 302 
+http://cyclocrass.com/t*	http://cyclocrass.com/testing.html:splat

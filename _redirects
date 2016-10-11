@@ -2,5 +2,5 @@
 #http://cyclocrass.com/q*	http://cyclocrass.com/testing.html:splat
 #http://www.cyclocrass.com/q*	http://www.cyclocrass.com/testing.html:splat
 
-/*	http://www.cyclocrass.com/au/:splat 301!	country=au
+/*	http://www.cyclocrass.com/au/:splat 301!	Country=au
 /from	/to	301!

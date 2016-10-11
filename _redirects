@@ -1,3 +1,6 @@
-http://testing.cyclocrass.com/	http://cyclocrass.com/testing.html
-http://cyclocrass.com/q*	http://cyclocrass.com/testing.html:splat
-http://www.cyclocrass.com/q*	http://www.cyclocrass.com/testing.html:splat
+#http://testing.cyclocrass.com/	http://cyclocrass.com/testing.html
+#http://cyclocrass.com/q*	http://cyclocrass.com/testing.html:splat
+#http://www.cyclocrass.com/q*	http://www.cyclocrass.com/testing.html:splat
+
+/*	http://www.cyclocrass.com/au/:splat 301!	country=au
+/from	/to	301!

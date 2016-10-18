@@ -1,8 +1,13 @@
 #http://testing.cyclocrass.com/	http://cyclocrass.com/testing.html
 #http://cyclocrass.com/q*	http://cyclocrass.com/testing.html:splat
 #http://www.cyclocrass.com/q*	http://www.cyclocrass.com/testing.html:splat
+#/api-test	http://requestb.in/1ld8b2j1	200
 
 #/au*	/au:splat	301!
-/*	http://www.cyclocrass.com/au/:splat 301!	Country=au
-/from	/to	301!
-/api-test	http://requestb.in/1ld8b2j1	200
+#/*	http://www.cyclocrass.com/au/:splat 301!	Country=au
+#/from	/to	301!
+
+https://au.cyclocrass.com/*  https://www.cyclocrass.com/au/:splat   301!
+http://au.cyclocrass.com/*   http://www.cyclocrass.com/au/:splat 301!
+
+/*  /au/:splat   301!  Country=au

@@ -5,3 +5,4 @@
 #/au*	/au:splat	301!
 /*	http://www.cyclocrass.com/au/:splat 301!	Country=au
 /from	/to	301!
+/api-test	http://requestb.in/1ld8b2j1	200

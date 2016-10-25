@@ -6,3 +6,7 @@ http://www.cyclocrass.com/testing.html
 
 /*.mp4
 	X-Robots-Tag: "noindex,nofollow"
+
+
+/auth.html
+	Basic-Auth: AAAA:aaaa

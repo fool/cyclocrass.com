@@ -8,5 +8,5 @@ http://www.cyclocrass.com/testing.html
 	X-Robots-Tag: "noindex,nofollow"
 
 
-/auth.html
+/Auth.html
 	Basic-Auth: AAAA:aaaa

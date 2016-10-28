@@ -8,6 +8,7 @@
 #/from	/to	301!
 
 https://au.cyclocrass.com/*  https://www.cyclocrass.com/:splat   301!
+http://cyclocrass.com/*	https://cyclocrass.com/:splat 301
 
 /*  /au/:splat   301!  Country=au
 

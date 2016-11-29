@@ -7,9 +7,12 @@
 #/*	http://www.cyclocrass.com/au/:splat 301!	Country=au
 #/from	/to	301!
 
+/post-proxy	http://requestb.in/1hea4831 301!
+
 https://au.cyclocrass.com/*  https://www.cyclocrass.com/:splat   301!
 http://cyclocrass.com/*	https://cyclocrass.com/:splat 301
 http://www.cyclocrass.com/*	https://www.cyclocrass.com/:splat 301
+
 
 /*  /au/:splat   301!  Country=au
 

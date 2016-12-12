@@ -1,4 +1,4 @@
-http://testing.cyclocrass.com/	http://cyclocrass.com/testing/:splat 200
+http://testing.cyclocrass.com/*	http://cyclocrass.com/testing/:splat 200
 
 #http://cyclocrass.com/q*	http://cyclocrass.com/testing.html:splat
 #http://www.cyclocrass.com/q*	http://www.cyclocrass.com/testing.html:splat

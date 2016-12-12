@@ -1,3 +1,6 @@
+https://staging--cyclocrass.netlify.com/*
+	Basic-Auth: login:password
+
 http://cyclocrass.com/testing.html
 	X-My-Header: yup
 

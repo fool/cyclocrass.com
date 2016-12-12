@@ -1,4 +1,5 @@
-#http://testing.cyclocrass.com/	http://cyclocrass.com/testing.html
+http://testing.cyclocrass.com/	http://cyclocrass.com/testing/:splat 200
+
 #http://cyclocrass.com/q*	http://cyclocrass.com/testing.html:splat
 #http://www.cyclocrass.com/q*	http://www.cyclocrass.com/testing.html:splat
 #/api-test	http://requestb.in/1ld8b2j1	200

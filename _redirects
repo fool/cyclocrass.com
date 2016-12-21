@@ -11,8 +11,8 @@
 /post-proxy	http://requestb.in/1m924641 200
 
 https://au.cyclocrass.com/*  https://www.cyclocrass.com/:splat   301!
-http://cyclocrass.com/*	https://cyclocrass.com/:splat 301
-http://www.cyclocrass.com/*	https://www.cyclocrass.com/:splat 301
+http://cyclocrass.com/*	https://cyclocrass.com/:splat 301!
+http://www.cyclocrass.com/*	https://www.cyclocrass.com/:splat 301!
 
 
 /*  /au/:splat   301!  Country=au

@@ -12,7 +12,7 @@
 /post-proxy/*	http://requestb.in/1fi649t1:splat	200
 
 #https://au.cyclocrass.com/*  https://www.cyclocrass.com/:splat   301!
-Ehttp://cyclocrass.com/*	https://cyclocrass.com/:splat 301!
+#http://cyclocrass.com/*	https://cyclocrass.com/:splat 301!
 #http://www.cyclocrass.com/*	https://www.cyclocrass.com/:splat 301!
 
 /410	/410.html	410!
@@ -20,5 +20,6 @@ Ehttp://cyclocrass.com/*	https://cyclocrass.com/:splat 301!
 
 #/*  /au/:splat   301!  Country=au
 
+/* /index.html 200
 /uploads/:edit/:image https://res.cloudinary.com/designstudio/image/upload/:edit/ds/:image 200!
 

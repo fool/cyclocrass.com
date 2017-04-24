@@ -20,3 +20,5 @@ http://www.cyclocrass.com/*	https://www.cyclocrass.com/:splat 301!
 
 /*  /au/:splat   301!  Country=au
 
+/uploads/:edit/:image https://res.cloudinary.com/designstudio/image/upload/:edit/ds/:image 200!
+

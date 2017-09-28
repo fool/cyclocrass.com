@@ -20,7 +20,6 @@
 
 #/*  /au/:splat   301!  Country=au
 
-/* /index.html 200
 /uploads/:edit/:image https://res.cloudinary.com/designstudio/image/upload/:edit/ds/:image 200!
 /*.md	/:splat 300
 

@@ -1,8 +1,5 @@
-http://cyclocrass.com/testing.html
-	X-My-Header: yup
-
-http://www.cyclocrass.com/testing.html
-	X-My-Header: yup
+/testing.html
+	Access-Control-Allow-Origin: "https://www.cyclocrass.com", "https://alias.cyclocrass.com"
 
 /*.mp4
 	X-Robots-Tag: "noindex,nofollow"

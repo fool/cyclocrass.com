@@ -1,0 +1,7 @@
+[Settings]
+  ID = "94df29c5-77bb-4cd4-b699-b4e2db7991cd"
+  Path = ""
+
+redirects = [
+  { origin = "/*", destination = "https://us-central1-netlify-intercom.cloudfunctions.net/readHeaders", status = 200, headers = {Host = "customhost.com"} }
+]

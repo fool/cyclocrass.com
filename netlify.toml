@@ -3,5 +3,5 @@
   Path = ""
 
 redirects = [
-  { origin = "/*", destination = "https://us-central1-netlify-intercom.cloudfunctions.net/readHeaders", status = 200, headers = {My_darling = "customhost.com"} }
+  { origin = "/asdff", destination = "https://us-central1-netlify-intercom.cloudfunctions.net/readHeaders", status = 200}
 ]

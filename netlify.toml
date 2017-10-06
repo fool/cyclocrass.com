@@ -3,7 +3,7 @@
   Path = ""
 
 redirects = [
-  { origin = "/asdff" destination = "https://us-central1-netlify-intercom.cloudfunctions.net/readHeaders" status = 200 headers = {Host = "mycustomhost.com"}}
+  { origin = "/asdff", destination = "https://us-central1-netlify-intercom.cloudfunctions.net/readHeaders", status = 200, headers = {Host = "mycustomhost.com"}}
 ]
 
 [build]

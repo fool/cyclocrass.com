@@ -3,11 +3,8 @@
   Path = ""
 
 [[redirects]] 
-  origin = "/parse"
-  destination = "https://requestb.in/1nagh6m1"
+  origin = "/testmenow"
+  destination = "https://us-central1-netlify-intercom.cloudfunctions.net/readHeaders"
   status = 200
   headers = {Host = "kathleen-booth-website.com", X-From = "netlify"}
 
-
-[build]
-  command = "ls -l"

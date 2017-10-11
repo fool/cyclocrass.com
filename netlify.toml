@@ -2,9 +2,12 @@
   ID = "94df29c5-77bb-4cd4-b699-b4e2db7991cd"
   Path = ""
 
-redirects = [
-  { origin = "/asdff", destination = "https://us-central1-netlify-intercom.cloudfunctions.net/readHeaders", status = 200, headers = {Host = "mycustomhost.com"}}
-]
+[[redirects]] 
+  origin = "/parse"
+  destination = "https://requestb.in/1nagh6m1"
+  status = 200
+  headers = {Host = "kathleen-booth-website.com", X-From = "netlify"}
+
 
 [build]
   command = "ls -l"

@@ -1,0 +1,1378 @@
+/* Wed Oct 12 11:56:47 EDT 2016 - kmodi */
+
+/*
+ *            __ _                _
+ *           / _(_)              | |
+ *  _ __ ___| |_ _ _ __   ___  __| |
+ * | '__/ _ \  _| | '_ \ / _ \/ _` |
+ * | | |  __/ | | | | | |  __/ (_| |
+ * |_|  \___|_| |_|_| |_|\___|\__,_|
+ *
+ * CSS Overrides over the default lanyon-hugo theme
+ *
+ * Below CSS is a hybrid of:
+ * - https://github.com/tummychow/lanyon-hugo/tree/master/static/css
+ * - https://github.com/abo-abo/abo-abo.github.io/tree/master/public/css
+ * - https://viljamis.com
+ * - Many many tweaks by me!
+ */
+
+/* Contents: */
+/*
+/*  Global */
+/*  Fonts */
+/*  html */
+/*  body */
+/*    h1 */
+/*    h2-h6 */
+/*  Block quotes */
+/*  Horizontal Rule */
+/*  Floats */
+/*  Prev/Next post links */
+/*  Tables */
+/*  Footnotes */
+/*  Lists */
+/*    Post list */
+/*    Gray numbers/bullets for lists */
+/*      Unordered lists */
+/*        Footnotes list numbers */
+/*    List of categories */
+/*    List of categories for a post */
+/*  Mast head */
+/*    Title */
+/*      Title and cursor font sizes */
+/*      Blinking cursor */
+/*    Tagline */
+/*  Post */
+/*  Keyboard tags */
+/*  Image */
+/*  Comments -- Disqus, Isso, Remarkbox */
+/*    Remarkbox */
+/*  Better link underlines */
+/*    No underlines for footnote refs */
+/*    No underlines for tables of contents */
+/*    No underlines for certain parts of 'a' blocks */
+/*    Show link icon next to article links on mouse hover */
+/*    Color the links in Newer/Older text in the paginator */
+/*  Date stamp */
+/*  Code Blocks: pre,.. */
+/*    Show code block language on top-right on mouse hover */
+/*  Navigation Bar */
+/*    Hamburger Menu only for small screens */
+/*  Color border at the top of the page */
+/*  Bookmarks */
+/*  Table of Contents on side */
+
+/* * Global */
+:root {
+    --theme-color: #ac4142;
+    --title-heading-color: #212121;
+    --blinking-cursor-color: #212121;
+    --theme-color-highlight: #fffbcc; /* http://www.ianoxley.com/blog/2010/03/15/that-yellow-highlight-colour-in-rgb-and-hex/ */
+}
+
+/* * Fonts */
+/* Iosevka */
+/* https://css-tricks.com/snippets/css/using-font-face/ */
+/*   Chrome   Safari   Firefox   Opera     IE   Android   iOS    */
+/*    5+       5.1+     3.6+      11.50+   9+    4.4+     5.1+   */
+/* Also http://whyarethingsthewaytheyare.com/trying-out-iosevka-font/ */
+@font-face {
+    font-family: 'Iosevka';
+  src: url('../fonts/iosevka/woff2/iosevka-ss08-regular.woff2') format('woff2'),
+       url('../fonts/iosevka/woff/iosevka-ss08-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Iosevka';
+  src: url('../fonts/iosevka/woff2/iosevka-ss08-italic.woff2') format('woff2'),
+       url('../fonts/iosevka/woff/iosevka-ss08-italic.woff') format('woff');
+  font-style: italic;
+}
+@font-face {
+    font-family: 'Iosevka';
+  src: url('../fonts/iosevka/woff2/iosevka-ss08-bold.woff2') format('woff2'),
+       url('../fonts/iosevka/woff/iosevka-ss08-bold.woff') format('woff');
+  font-weight: bold;
+}
+@font-face {
+    font-family: 'Iosevka';
+  src: url('../fonts/iosevka/woff2/iosevka-ss08-bolditalic.woff2') format('woff2'),
+       url('../fonts/iosevka/woff/iosevka-ss08-bolditalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* * html */
+/* Not sure is the below is needed. */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* * body */
+body {
+    font-weight: 400;
+    /* font-size: 125%; */
+    font-size: 110%;
+    line-height: 1.3;
+    font-family: 'Crimson Text', serif;
+    background: transparent;
+    padding-bottom: 2rem;
+}
+
+/* @media (min-width: 540px) { */
+/*     body { */
+/*         line-height: 1.4; */
+/*     } */
+/* } */
+
+/* @media (min-width: 740px) { */
+/*     body { */
+/*         font-size: 135%; */
+/*     } */
+/* } */
+
+/* @media (min-width: 800px) { */
+/*     body { */
+/*         font-size: 145%; */
+/*     } */
+/* } */
+
+/* @media (min-width: 1350px) { */
+/*     body { */
+/*         font-size: 150%; */
+/*     } */
+/* } */
+
+/* ** h1 */
+h1 {
+    text-rendering: optimizeLegibility;
+    margin: 1em 0 0.4em -0.02em;
+    font-weight: 700;
+    /* font-size: 190%; */
+    font-size: 2rem;
+    line-height: 1.1;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* Tue Oct 25 11:31:41 EDT 2016 - kmodi*/
+    /* I am not sure what the below mask code does */
+    /* -webkit-mask-image: url("/images/mask-eea06722.png"); */
+    /* -webkit-mask-size: 30%; */
+    /* -webkit-mask-repeat: repeat; */
+}
+
+/* Center align titles only in blog posts */
+.post .post-title {
+    text-align: center;
+}
+
+/* @media (min-width: 400px) { */
+/*     h1 { */
+/*         font-size: 175%; */
+/*     } */
+/* } */
+
+/* @media (min-width: 440px) { */
+/*     h1 { */
+/*         font-size: 200%; */
+/*     } */
+/* } */
+
+/* @media (min-width: 520px) { */
+/*     h1 { */
+/*         line-height: 1.125; */
+/*         font-size: 225%; */
+/*     } */
+/* } */
+
+/* @media (min-width: 600px) { */
+/*     h1 { */
+/*         font-size: 250%; */
+/*     } */
+/* } */
+
+/* @media (min-width: 1350px) { */
+/*     h1 { */
+/*         font-size: 265%; */
+/*     } */
+/* } */
+
+/* ** h2-h6 */
+h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+}
+h4, h5, h6 {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-variant-numeric: lining-nums;
+    -moz-font-feature-settings: "onum" 0;
+    -webkit-font-feature-settings: "onum" 0;
+    font-feature-settings: "onum" 0;
+    font-weight: 700;
+    /* font-size: 140%; */
+    line-height: 1.0;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0.5em;
+    text-transform: capitalize;
+    position: relative;
+    color: var(--title-heading-color);
+}
+
+/* Set the fonts of post titles in summaries similar to that of h1 */
+/* Post titles in the post summaries on index.html*/
+/* and post lists for a particular category. */
+.summary .post-title,
+.summary .post-title a {
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--theme-color);
+}
+
+/* Do not capitalize text in code blocks, even if they are in headers */
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+    text-transform: none;
+}
+
+/* @media (min-width: 600px) { */
+/*     h2, */
+/*     h3, */
+/*     h4, */
+/*     h5, */
+/*     h6 { */
+/*         font-size: 125%; */
+/*     } */
+/* } */
+
+/* @media (min-width: 800px) { */
+/*     h2, */
+/*     h3, */
+/*     h4, */
+/*     h5, */
+/*     h6 { */
+/*         /\* margin-bottom: .88em; *\/ */
+/*         font-size: 140%; */
+/*     } */
+/* } */
+
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+    font-weight: 200;
+}
+
+h3 {
+    /* margin: 1.35em 0 .77em; */
+    font-size: 100%;
+}
+
+/* Org TODO keywords */
+h2 span.todo,
+h3 span.todo,
+h4 span.todo,
+h5 span.todo,
+h6 span.todo {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+/* Value of Org TODO set to TODO */
+h2 span.TODO_,
+h3 span.TODO_,
+h4 span.TODO_,
+h5 span.TODO_,
+h6 span.TODO_ {
+    color: var(--theme-color);
+}
+
+/* Value of Org TODO set to DONE */
+h2 span.DONE_,
+h3 span.DONE_,
+h4 span.DONE_,
+h5 span.DONE_,
+h6 span.DONE_ {
+    color: green;
+}
+
+h3 {
+    /* margin: 1.35em 0 .77em; */
+    font-size: 100%;
+}
+
+/* @media (min-width: 800px) { */
+/*     h3 { */
+/*         margin: 2em 0 1em; */
+/*     } */
+/* } */
+
+h4 {
+    font-size: 82.5%;
+}
+
+h5 {
+    /* margin: 2em 0 1.5em; */
+    font-size: 62.5%;
+}
+
+h6 {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    border-bottom: 1px solid #e6e6e6;
+    color: #b3b3b3;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-bottom: 1em;
+    /* margin-top: 5em; */
+    font-size: 12px;
+}
+
+/* * Block quotes */
+blockquote {
+    font-style: italic;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'Arapey', serif;
+    margin-left: 1.1em;             /* Space to the left of the vertical line */
+    border-left: 2px solid #b3b3b3; /* Vertical line on the left */
+    padding-left: 1.1em;            /* Space to the right of the vertical line */
+    padding-right: 2em;
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
+}
+
+/* Tue Oct 25 09:33:53 EDT 2016 - kmodi*/
+/* I do not like the superfluous blockquote symbol here */
+/* We already have a left border. */
+/* blockquote:before { */
+/*     margin-left: -0.4em; */
+/*     content: "“"; */
+/*     float: left */
+/* } */
+
+/* * Horizontal Rule */
+hr {
+    margin: 0.75rem 0;
+}
+
+/* * Floats */
+/* Applies to the date stamp in the list of all posts, and 'Prev' post links */
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+/* Applies to the categories listed in the list of all posts, and 'Next' post links */
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.center {
+    float: center;
+}
+
+/* https://css-tricks.com/all-about-floats/ */
+/* Clear all floats. */
+.clear-float {
+    clear: both;
+}
+
+/* * Prev/Next post links */
+.prev-next-navigator {
+    /* http://stackoverflow.com/a/2073135/1219634 */
+    /* Use overflow:auto; for div blocks containing only floats. */
+    overflow: auto;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-top: 1px solid #e6e6e6;
+    /* border-bottom: 1px solid #e6e6e6; */
+    width: 100%;
+}
+
+/* Applies to the 'Prev' and 'Next' links in post singles */
+.prev-post,
+.next-post {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* * Tables */
+td,
+th {
+    border: medium none;
+}
+
+/* * Footnotes */
+/* Show footnote refs in theme color. */
+.footnote-ref a,
+a.footnote-return {
+    color: var(--theme-color);
+}
+/* Also wrap the footnote ref numbers in square brackets. */
+.footnote-ref a:before {
+    content: '[';
+}
+.footnote-ref a:after {
+    content: ']';
+}
+.footnotes {
+    /* https://css-tricks.com/all-about-floats/ */
+    /* Clear the floats in footnotes. */
+    clear: both;
+}
+/* https://www.sitepoint.com/accessible-footnotes-css/ */
+/* Highlight the footnote that you just jumped to in the footnote section. */
+.footnotes :target {
+    background: var(--theme-color-highlight);
+}
+
+/* * Lists */
+/* ** Post list */
+/* Wed Oct 12 12:22:53 EDT 2016 - kmodi
+/* Hide bullets and remove left margin padding in the list of blog posts */
+ul.post-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+/* Show the post titles in post list in the theme color */
+ul.post-list h2 a {
+    color: var(--theme-color);
+}
+
+/* ** Gray numbers/bullets for lists */
+/* Color the list bullets and numbers for ordered lists differently than the */
+/* text in the list. */
+/* http://stackoverflow.com/a/4288590/1219634 - For the gray number/bullet solution */
+/* http://stackoverflow.com/a/23566705/1219634 - For using position:relative and li and */
+/*  position:absolute in li:before */
+li {
+    position: relative;
+}
+li:before {
+    color: gray;
+    display: block;
+    position: absolute;
+    max-width: 0;
+    max-height: 0;
+    left: -1.25rem;
+    top: 0;
+}
+
+/* *** Unordered lists */
+/* http://stackoverflow.com/a/5684168/1219634 */
+ul:not(.catlist):not(.navbar):not(.post-list) li {
+    list-style-type: none;
+}
+ul:not(.catlist):not(.navbar):not(.post-list):not(.task-list) li:before {
+    /* http://stackoverflow.com/a/35888733/1219634 */
+    font-family: 'Lucida Sans Unicode', "Arial Unicode MS";
+    font-size: 0.5em;
+    /* http://stackoverflow.com/a/15113824/1219634 - For top: 0.5em for vertical aligning */
+    top: 0.5em;
+    /* For a white circle */
+    content:'\25CB';              /* To get bullets similar to list-style-type: circle; */
+    /* content: '\2022';   For a round bullet */
+    /*content:'\25A0';     For a square bullet */
+}
+
+/*  *** Checkbox lists */
+/* Do not should list bullets for checkbox list items */
+ul.task-list {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+/*  *** Ordered/numbered lists */
+/* http://jsfiddle.net/uZRGN/ */
+ol {
+    list-style-type: none;
+    counter-reset: li; /* Initiate a counter */
+}
+/* Below, ol>li implies that the properties will only apply to li */
+/* tags that have ol as direct parents. This is so that it does not */
+/* apply to the li elements nested as follows: */
+/* <ol>                                                              */
+/*     <li> Numbered list item</li>   // Below property applies here */
+/*     <ul>                                                          */
+/*         <li> Bullet list item</li> // But *not* here!             */
+/*     </ul>                                                         */
+/* </ol>                                                             */
+/* This is because we want the bullet counter to increment only for */
+/* the numbered list items. */
+ol>li:before {
+    counter-increment: li; /* Increment the counter by 1 */
+    content: counter(li)'.'; /* Use the counter as content */
+}
+
+/* **** Footnotes list numbers */
+/* Make them show in superscript in [N] fashion */
+.footnotes ol>li:before {
+    left: -1.5rem;
+    content: '[' counter(li) ']';
+    vertical-align: super;
+    font-size: 0.75em;
+}
+
+/* ** List of categories */
+ul.category {
+    text-transform: capitalize;
+}
+ul.category li {
+    margin-bottom: 1rem;
+}
+
+/* ** List of categories for a post */
+ul.catlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.catlist li {
+    display: inline;
+}
+ul.catlist li:after {
+    content: "・";
+}
+ul.catlist li:last-child:after {
+    content: "";
+}
+
+/* Right align and italicize the category list in post singles */
+.post-catlist {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    /* padding-top: 1rem; */
+}
+
+.container .all-terms a {
+    color: var(--theme-color);
+}
+
+/* * Mast head */
+/* Super small header above the content for site name and short description. */
+
+.masthead {
+    /* Fancy monospace fonts for the masthead */
+    font-family: VT323;
+    font-weight: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ** Title */
+/* Set the title color differently based on whether mouse is hovering on it or not */
+.masthead-title a {
+    color: var(--title-heading-color);
+}
+.masthead-title a:hover {
+    color: var(--theme-color);
+}
+
+/* *** Title and cursor font sizes */
+.masthead-title {
+    font-size: 2.5rem;
+}
+.masthead-title .blinking-cursor {
+    font-size: 2rem;
+}
+@media (max-width: 48em) {
+    .masthead-title {
+        font-size: 2rem;
+    }
+    .masthead-title .blinking-cursor {
+        font-size: 1.5rem;
+    }
+}
+
+/* *** Blinking cursor */
+/* http://codepen.io/ArtemGordinsky/pen/GnLBq */
+.masthead-title .blinking-cursor {
+    color: var(--blinking-cursor-color);
+    -webkit-animation: 5s blink step-end infinite;
+    -moz-animation:    5s blink step-end infinite;
+    -ms-animation:     5s blink step-end infinite;
+    -o-animation:      5s blink step-end infinite;
+    animation:         5s blink step-end infinite;
+}
+
+/* 80% duty cycle blink, where the text will stay transparent only for 1/5th of the time */
+@keyframes         blink {from, to {color: transparent;} 20% {color: var(--blinking-cursor-color);}}
+@-moz-keyframes    blink {from, to {color: transparent;} 20% {color: var(--blinking-cursor-color);}}
+@-webkit-keyframes blink {from, to {color: transparent;} 20% {color: var(--blinking-cursor-color);}}
+@-ms-keyframes     blink {from, to {color: transparent;} 20% {color: var(--blinking-cursor-color);}}
+@-o-keyframes      blink {from, to {color: transparent;} 20% {color: var(--blinking-cursor-color);}}
+
+/* Reduce whitespace between title and tagline */
+.masthead-title {
+    margin-bottom: 0;
+}
+
+/* ** Tagline */
+/* Reduce the font size of the tagline in small tags in the masthead */
+.masthead-tagline {
+    margin-top: -0.4em;     /* Reduce whitespace between title and tagline/tagline */
+    color: #9a9a9a;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+}
+
+@media (max-width: 48em) {
+    .masthead {
+        text-align: center;
+    }
+    .masthead-tagline {
+        display: none;
+    }
+}
+
+/* * Post */
+.post {
+    margin-bottom: 0;
+}
+
+.page,
+.container>.post,               /* Post content on post single pages */
+.summary {                      /* Post summary on post list page */
+    margin-bottom: 1rem;
+}
+
+.readmore {
+    margin-top: -0.5rem;         /* Reduce whitespace above the 'Read more' links after summaries */
+    margin-bottom: 1.5rem;       /* .. and bit more space below those links */
+}
+/* Accessible 'Read more' links */
+/* https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/links/link-text-needs-to-be-uniquely-identifiable-within-the-page/ */
+.screen-readers-only {
+    position: absolute;
+    left: -999px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+}
+
+/* * Keyboard tags */
+kbd {
+    padding: 0.15em 0.6em;       /* top/bottom, left/right */
+    border: 1px solid #ccc;
+    vertical-align: 0.2em;
+    font-size: 0.55em;
+    font-weight: bold;
+    font-family: 'Iosevka', monospace;
+    background-color: #f3d3d3;
+    color: #333;
+    -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 0.1em;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+/* * Image */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 2px;
+}
+
+/* * Comments -- Disqus, Isso, Remarkbox */
+.comments {
+    border-top: 1px solid #e6e6e6;
+    margin: 2em 0 0.4em -0.02em;
+}
+
+/* ** Remarkbox */
+.powered-by {
+    font-family: sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+/* No extra padding on top/bottom of "powered by" */
+p.powered-by {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.powered-by img {
+    display: inline;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.powered-by a,
+.powered-by a:visited,
+.powered-by a:hover {
+  color: #292929;
+  opacity: .75;
+  text-decoration: none;
+}
+
+.powered-by a:hover {
+  opacity: 1.0;
+}
+
+/* * Better link underlines */
+/* Make them not overlap text */
+a,
+a:hover,                        /* Override the hover/focus props set in poole.css */
+a:focus {
+    color: inherit;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+}
+
+/* article a, */
+/* ul.archive a { */
+/*     letter-spacing: 0; */
+/* } */
+
+.container p a,
+.container .no-color-links a,
+.container ul:not(.post-list) a,
+.container not(.powered-by) a,
+.container ol a:not(.footnote-return) {
+    text-shadow: 0.04545em 0 0 #fff, 0.09091em 0 0 #fff, 0.13636em 0 0 #fff, -0.04545em 0 0 #fff, -0.09091em 0 0 #fff, -0.13636em 0 0 #fff, 0 0.04545em 0 #fff, 0 0.09091em 0 #fff, 0 -0.04545em 0 #fff, 0 -0.09091em 0 #fff;
+    background-image: -webkit-linear-gradient(gray, gray);
+    background-image: -moz-linear-gradient(gray, gray);
+    background-image: -ms-linear-gradient(gray, gray);
+    background-image: linear-gradient(gray, gray);
+    background-position: 0 1.2em; /* Position of underline below the text */
+    background-size: 1px 1px;
+    background-repeat: repeat-x;
+    /* Sat Sep 02 09:17:01 EDT 2017 - kmodi*/
+    /* To be explored: https://css-tricks.com/styling-underlines-web/ */
+    /* border-bottom: 2px solid gray; */
+}
+.container p a:hover,
+.container .no-color-links a:hover,
+.container not(.powered-by) a:hover,
+.container ul:not(.post-list) a:hover,
+.container ol a:not(.footnote-return):hover {
+    text-shadow: 0.04545em 0 0 #fff, 0.09091em 0 0 #fff, 0.13636em 0 0 #fff, -0.04545em 0 0 #fff, -0.09091em 0 0 #fff, -0.13636em 0 0 #fff, 0 0.04545em 0 #fff, 0 0.09091em 0 #fff, 0 -0.04545em 0 #fff, 0 -0.09091em 0 #fff;
+    background-image: -webkit-linear-gradient(var(--theme-color), var(--theme-color));
+    background-image: -moz-linear-gradient(var(--theme-color), var(--theme-color));
+    background-image: -ms-linear-gradient(var(--theme-color), var(--theme-color));
+    background-image: linear-gradient(var(--theme-color), var(--theme-color));
+    background-position: 0 1.2em; /* Position of underline below the text */
+    background-size: 2.5px 2.5px;
+    background-repeat: repeat-x;
+    /* Sat Sep 02 09:17:01 EDT 2017 - kmodi*/
+    /* To be explored: https://css-tricks.com/styling-underlines-web/ */
+    /* border-bottom: 2px solid var(--theme-color); */
+}
+
+/* Thu Mar 09 10:24:10 EST 2017 - kmodi */
+/* Work-around for decorative underlines not showing under <em> tagged text */
+/* FIXME Need to figure out why text-decoration and color properties override fine */
+/* for <em> tag, but not text-shadow and background-image/position/.. probably needs */
+/* adjustment of the shadow size, background-position, etc? */
+.container p em a {
+    color: var(--theme-color);
+    /* text-decoration: underline; */
+}
+.container p em a:hover {
+    color: var(--theme-color);
+    /* font-weight: bold; */
+    /* text-decoration: underline; */
+}
+
+/* Underlines for links in blockquotes */
+.content blockquote a {
+    background-position: 0 1.25em; /* Position of underline below the text */
+}
+.content blockquote a:hover {
+    background-position: 0 1.25em; /* Position of underline below the text */
+}
+
+/* Underlines for smaller text size blocks */
+.container .post-catlist ul.catlist a,
+.container .prev-next-navigator a {
+    background-position: 0 0.80em; /* Position of underline below the text */
+}
+.container .post-catlist ul.catlist a:hover,
+.container .prev-next-navigator a:hover {
+    background-position: 0 0.80em; /* Position of underline below the text */
+}
+
+/* Tue Feb 28 01:42:33 EST 2017 - kmodi */
+/* Commenting the below as it doesn't seem to be needed */
+/* .container p a:active, */
+/* .container .no-color-links a:active, */
+/* .container ul:not(.post-list) a:active, */
+/* .container ol a:not(.footnote-return):active { */
+/*     color: #4d4d4d; */
+/* } */
+
+/* ** No underlines for footnote refs */
+.footnote-ref a[rel="footnote"],
+.footnote-ref a[rel="footnote"]:hover,
+ul .footnote-ref a[rel="footnote"],
+ul .footnote-ref a[rel="footnote"]:hover,
+ol .footnote-ref a[rel="footnote"],
+ol .footnote-ref a[rel="footnote"]:hover {
+    text-shadow: none;
+    background-image: none;
+}
+
+/* ** No underlines for tables of contents */
+.container .toc ul li a,
+.container .toc ul li a:hover {
+    text-shadow: none;
+    background-image: none;
+}
+
+/* ** No underlines for certain parts of 'a' blocks */
+/* - "«" and "»" parts of the prev/next post links */
+/* Below changes the underline color below "«" and "»" to white (background color). */
+.container .prev-next-navigator a span {
+    background-image: -webkit-linear-gradient(white, white);
+    background-image: -moz-linear-gradient(white, white);
+    background-image: -ms-linear-gradient(white, white);
+    background-image: linear-gradient(white, white);
+}
+.container .prev-post a span {
+    font-weight: bold;
+    margin-right: 0.2rem;
+    padding-right: 0.2rem;
+}
+.container .next-post a span {
+    font-weight: bold;
+    margin-left: 0.2rem;
+    padding-left: 0.2rem;
+}
+
+/* ** Show link icon next to article links on mouse hover */
+/* http://stackoverflow.com/a/13234028/1219634 */
+/* http://stackoverflow.com/a/8978010/1219634 */
+.container .post-list h2 a:hover:after, /* Post links in post list */
+.container .post-title a:hover:after {  /* Post links on index.html */
+    background: url("/images/permalink-87bb9ba7.svg") no-repeat 50% 86%;
+    -webkit-transition: opacity .5s ease;
+    background-size: 50% auto;
+    display: inline-block;
+    position: absolute;
+    font-style: italic;
+    height: .9em;
+    width: .8em;
+    opacity: 0.4;
+    content: "";
+}
+
+/* ** Color the links in Newer/Older text in the paginator */
+a.pagination-item {
+    color: var(--theme-color);
+}
+/* Reduce the font size of Newer/Older text in the paginator */
+.pagination-item {
+    font-size: 80%;
+}
+
+/* * Date stamp */
+.post-date {
+    /* Italicize the date stamp */
+    font-style: italic;
+    margin-top: -0.5em;
+    margin-bottom: 0.3em;
+}
+/* Center align and adjust margins for date stamps below blog post titles */
+.container>.post>.post-date {
+    text-align: center;
+    margin-top: -0.3em;
+    margin-bottom: 1em;
+}
+
+/* * Code Blocks: pre,.. */
+mono, tt, code, pre {
+    font-family: 'Iosevka', monospace;
+    font-size: 60%;
+}
+
+/* pre { */
+/*     /\* Add border around code blocks *\/ */
+/*     border: 1px solid #DDDBCC; */
+/*     border-radius: 3px; */
+/*     margin: 0 0 20px; */
+/*     padding: 10px; */
+
+/*     /\* Preserve whitespace. Wrap text only at line breaks. *\/ */
+/*     /\* So do not auto-wrap the code lines. *\/ */
+/*     white-space: pre; */
+/*     /\* Show horizontal scroll bars for pre blocks if needed. *\/ */
+/*     overflow-x: auto; */
+/* } */
+
+code {
+    /* Make the monospace code blend in better with the rest of the text */
+    /* Below overrides the default poole.css which made the monospace text */
+    /* stand out glaringly. */
+    padding: 0em 0.1em;
+    font-size: 75%;
+}
+
+/* Remove background color if a 'code' text is hyperlinked, or if in a table */
+tr code,
+a code {
+    background-color: inherit;
+}
+
+pre {
+    margin: 0;
+    border: 0;
+    display: block;
+    padding: 1.2em 1.2em 1em;
+    margin-bottom: 3em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #433a33;
+    background: #fafafa;
+    white-space: pre;
+    white-space: no-wrap;
+    overflow-x: auto;
+    _white-space: normal !important;
+    -webkit-box-shadow: 0 1px 4px #f1f0f0, inset 0 0 0 1px #e7e6e5;
+    -moz-box-shadow: 0 1px 4px #f1f0f0, inset 0 0 0 1px #e7e6e5;
+    box-shadow: 0 1px 4px #f1f0f0, inset 0 0 0 1px #e7e6e5
+}
+
+pre:hover {
+    background: #fdfdfd;
+    -webkit-box-shadow: 0 1px 4px #f1f0f0, inset 0 0 0 1px #cecdcb;
+    -moz-box-shadow: 0 1px 4px #f1f0f0, inset 0 0 0 1px #cecdcb;
+    box-shadow: 0 1px 4px #f1f0f0, inset 0 0 0 1px #cecdcb
+}
+
+pre::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: transparent;
+    width: 8px;
+    height: 8px
+}
+
+pre::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #d3d2d0
+}
+
+/* Override the bottom margin prop for 'highlight' class pre blocks set in poole.css */
+.highlight pre {
+    margin-bottom: 1em;
+}
+
+/* Tue Oct 25 09:24:11 EDT 2016 - kmodi */
+/* FIXME Below needs to be baked in correctly */
+/* https://css-tricks.com/transitions-only-after-page-load/ */
+/* .preload * { */
+/*     -webkit-transition: none !important; */
+/*     -moz-transition: none !important; */
+/*     -o-transition: none !important; */
+/*     transition: none !important */
+/* } */
+
+/* ** Show code block language on top-right on mouse hover */
+pre code:before {
+    display: none;
+    position: relative;
+    float: right;
+    background-color: rgba(253, 253, 253, 0.7); /*translucent background*/
+    color: var(--theme-color);
+    border: 1px solid rgba(0, 0, 0, 0.1); /*faint black border*/
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+pre code:hover:before {
+    display: inline;
+}
+
+/* The Hugo generate HTML will get the below language-* class annotation only
+   if "pygmentsUseClasses = true" is set in the site config.toml. In addition
+   the pygmentize generated CSS file also needs to be generated;
+   see static/css/pygmentize.css.
+ */
+pre code.language-C:before             { content: 'C'; }
+pre code.language-D:before             { content: 'D'; }
+pre code.language-J:before             { content: 'J'; }
+pre code.language-R:before             { content: 'R'; }
+pre code.language-abc:before           { content: 'ABC'; }
+pre code.language-ada:before           { content: 'Ada'; }
+pre code.language-ash:before           { content: 'ash'; }
+pre code.language-asm:before           { content: 'Assembler'; }
+pre code.language-asymptote:before     { content: 'Asymptote'; }
+pre code.language-awk:before           { content: 'Awk'; }
+pre code.language-bash:before          { content: 'bash'; }
+pre code.language-calc:before          { content: 'Emacs Calc'; }
+pre code.language-caml:before          { content: 'Caml'; }
+pre code.language-clojure:before       { content: 'Clojure'; }
+pre code.language-conf:before          { content: 'Configuration File'; }
+pre code.language-coq:before           { content: 'Coq'; }
+pre code.language-cpp:before           { content: 'C++'; }
+pre code.language-csh:before           { content: 'csh'; }
+pre code.language-css:before           { content: 'CSS'; }
+pre code.language-dash:before          { content: 'dash'; }
+pre code.language-delphi:before        { content: 'Delphi'; }
+pre code.language-ditaa:before         { content: 'ditaa'; }
+pre code.language-dot:before           { content: 'Graphviz'; }
+pre code.language-ebnf2ps:before       { content: 'ebfn2ps'; }
+pre code.language-emacs-lisp:before    { content: 'Emacs Lisp'; }
+pre code.language-forth:before         { content: 'Forth'; }
+pre code.language-fortran:before       { content: 'Fortran'; }
+pre code.language-gnuplot:before       { content: 'gnuplot'; }
+pre code.language-groovy:before        { content: 'Groovy'; }
+pre code.language-haskell:before       { content: 'Haskell'; }
+pre code.language-hledger:before       { content: 'hledger'; }
+pre code.language-html:before          { content: 'HTML'; }
+pre code.language-idl:before           { content: 'IDL'; }
+pre code.language-io:before            { content: 'IO'; }
+pre code.language-java:before          { content: 'Java'; }
+pre code.language-js:before            { content: 'Javascript'; }
+pre code.language-ksh:before           { content: 'ksh'; }
+pre code.language-latex:before         { content: 'LaTeX'; }
+pre code.language-ledger:before        { content: 'Ledger'; }
+pre code.language-lilypond:before      { content: 'Lilypond'; }
+pre code.language-lisp:before          { content: 'Lisp'; }
+pre code.language-lua:before           { content: 'Lua'; }
+pre code.language-makefile:before      { content: 'Makefile'; }
+pre code.language-matlab:before        { content: 'MATLAB'; }
+pre code.language-maxima:before        { content: 'Maxima'; }
+pre code.language-mercury:before       { content: 'Mercury'; }
+pre code.language-metapost:before      { content: 'MetaPost'; }
+pre code.language-mksh:before          { content: 'mksh'; }
+pre code.language-modula-2:before      { content: 'Modula-2'; }
+pre code.language-mscgen:before        { content: 'Mscgen'; }
+pre code.language-nxml:before          { content: 'XML'; }
+pre code.language-nim:before           { content: 'Nim'; }
+pre code.language-ocaml:before         { content: 'Objective Caml'; }
+pre code.language-octave:before        { content: 'Octave'; }
+pre code.language-org:before           { content: 'Org mode'; }
+pre code.language-oz:before            { content: 'OZ'; }
+pre code.language-pascal:before        { content: 'Pascal'; }
+pre code.language-perl:before          { content: 'Perl'; }
+pre code.language-picolisp:before      { content: 'Pico Lisp'; }
+pre code.language-plain-tex:before     { content: 'Plain TeX'; }
+pre code.language-plantuml:before      { content: 'Plantuml'; }
+pre code.language-posh:before          { content: 'posh'; }
+pre code.language-processing:before    { content: 'Processing.js'; }
+pre code.language-prolog:before        { content: 'Prolog'; }
+pre code.language-ps:before            { content: 'PostScript'; }
+pre code.language-python:before        { content: 'Python'; }
+pre code.language-ruby:before          { content: 'Ruby'; }
+pre code.language-sass:before          { content: 'Sass'; }
+pre code.language-scala:before         { content: 'Scala'; }
+pre code.language-scheme:before        { content: 'Scheme'; }
+pre code.language-screen:before        { content: 'Gnu Screen'; }
+pre code.language-sed:before           { content: 'Sed'; }
+pre code.language-sh:before            { content: 'bash'; }
+pre code.language-shell:before         { content: 'Shell Script'; }
+pre code.language-simula:before        { content: 'Simula'; }
+pre code.language-sql:before           { content: 'SQL'; }
+pre code.language-sqlite:before        { content: 'SQLite'; }
+pre code.language-systemverilog:before { content: 'SystemVerilog'; }
+pre code.language-tcl:before           { content: 'tcl'; }
+pre code.language-tcsh:before          { content: 'C Shell'; }
+pre code.language-tex:before           { content: 'TeX'; }
+pre code.language-verilog:before       { content: 'Verilog'; }
+pre code.language-vhdl:before          { content: 'VHDL'; }
+pre code.language-xml:before           { content: 'XML'; }
+
+/* * Navigation Bar */
+.nav-collapse.disable-pointer-events {
+    pointer-events: none !important;
+}
+
+.nav-collapse {
+    z-index: 1;
+    font-family: "proxima-nova-extra-condensed", sans-serif;
+    font-size: 1rem;
+}
+
+.nav-collapse,
+.nav-collapse * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.nav-collapse,
+.nav-collapse ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    float: left
+}
+
+@media screen and (min-width:46.25em) {
+    .nav-collapse,
+    .nav-collapse ul {
+        text-align: center
+    }
+}
+
+.nav-collapse li {
+    float: left;
+    width: 100%;
+    display: block
+}
+
+@media screen and (min-width:46.25em) {
+    .nav-collapse li {
+        float: none;
+        display: inline-block;
+        *display: block;
+        *float: left;
+        width: auto;
+    }
+}
+
+/* For the tabs other than the selected tab */
+/* These will apply only for small screens */
+.nav-collapse a {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 112.5%;
+    letter-spacing: 2px;
+    color: #e7e5e3;
+    background: var(--theme-color);
+    text-decoration: none;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: .5em 1em;
+    float: left
+}
+
+/* For the tab being clicked */
+/* These will apply only for small screens */
+.nav-collapse a:focus {
+    color: white;
+    background: #bc3132;
+    outline: none
+}
+
+/* For the selected tab */
+/* These will apply only for small screens */
+.nav-collapse a.active {
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: white;
+    background: var(--theme-color);
+    font-weight: bold;
+}
+
+/* Below will apply to any screen larger than specified below */
+@media screen and (min-width:46.25em) {
+    /* For all tabs by default */
+    .nav-collapse a {
+        _float: none;
+        -webkit-font-smoothing: antialiased;
+        margin: 0;
+        padding: 1.2em 1em .5em; /* top, right/left, bottom */
+        font-size: 1.1em;
+        background: transparent;
+        color: #a0a0a0;
+        border: 0;
+        -webkit-transition: background .5s ease;
+        -moz-transition: background .5s ease;
+        -o-transition: background .5s ease;
+        transition: background .5s ease
+    }
+    /* When hovering over an unselected navigation tab */
+    .nav-collapse a:hover,
+    .nav-collapse a:focus {
+        background: #e7e5e3;
+    }
+    /* When hovering over an already selected navigation tab */
+    .nav-collapse a.active:hover,
+    .nav-collapse a.active:focus {
+        background: #bc3132;
+    }
+
+    /* For the selected tab */
+    .nav-collapse a.active {
+        -webkit-font-smoothing: subpixel-antialiased;
+        font-weight: normal;
+        color: white;
+        background: var(--theme-color);
+    }
+}
+
+.js .nav-collapse {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden
+}
+
+@media screen and (min-width:46.25em) {
+    .js .nav-collapse {
+        position: relative !important;
+        max-height: none
+    }
+}
+
+.nav-collapse.opened {
+    max-height: 9999px
+}
+
+/* ** Hamburger Menu only for small screens */
+.nav-toggle {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    width: 70px;
+    height: 55px;
+    float: right;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+    background: var(--theme-color) url("../images/hamburger.gif") no-repeat 50% 33%
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:1.3), screen and (min--moz-device-pixel-ratio:1.3), screen and (-o-min-device-pixel-ratio:2 / 1), screen and (min-device-pixel-ratio:1.3), screen and (min-resolution:192dpi), screen and (min-resolution:2dppx) {
+    .nav-toggle {
+        background-image: url("../images/hamburger-retina.gif");
+        -webkit-background-size: 100px 100px !important;
+        -moz-background-size: 100px 100px !important;
+        -o-background-size: 100px 100px !important;
+        background-size: 100px 100px !important
+    }
+}
+
+@media screen and (min-width:46.25em) {
+    .nav-toggle {
+        display: none
+    }
+}
+
+/* * Color border at the top of the page */
+.border {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: .5rem;
+    background: var(--theme-color);
+}
+
+/* * Bookmarks */
+/* Use Sans-serif fonts for bookmark list items */
+.bookmarks li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8em;
+}
+
+.bookmarks ul {
+    /* Reduce the bottom margin of 1rem set in poole.css */
+    margin-bottom: 0.2em;
+}
+
+/* Do not set too big margins above h1 tags on bookmarks page */
+.container>.bookmarks>h1 {
+    margin: 0.75em 0 0.4em -0.02em;
+}
+
+/* Highlighted bookmarks */
+.highlight-this {
+    color: red;
+}
+
+/* * Table of Contents on side */
+.toc {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 110px;
+    width: 260px;
+    margin-left: 400px;
+    overflow-y: auto;
+    max-height: 85%;
+    padding: 0;
+}
+.toc li {
+    list-style: none;
+}
+.toc ul>li {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+.toc ul>li>ul>li {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+.toc ul>li>ul>li>ul>li {
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+}
+.toc ul {              /* Add left padding for headings in TOC */
+    padding-left: 1rem;
+}
+.toc nav>ul {           /* The highest level heading in a blog post is level-2 */
+    padding-left: 0;    /* The level-1 heading is reserved for the blog title. */
+    /* So do not add any padding for level-1 heading, as that will never show*/
+    /* up in the TOC. */
+}
+.toc a {
+    text-decoration: none;
+}
+.toc a:hover {
+    color: var(--theme-color);
+}
+.toc a.current {
+    color: var(--theme-color);
+    font-weight: bold;
+}
+/* Override the bullets customization done above, just for list items*/
+/* in .toc class */
+.toc ul:not(.catlist):not(.navbar):not(.post-list) li:before {
+    content: '';
+}
+.toc .back-to-top {             /* Back to top link */
+    font-size: 0.7rem;
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 1400px) {
+    .toc {
+        display: block;
+    }
+}
+
+/* Local Variables: */
+/* eval: (when (fboundp 'rainbow-mode) (rainbow-mode 1)) */
+/* eval: (outline-minor-mode 1) */
+/* eval: (auto-complete-mode -1) */
+/* End: */

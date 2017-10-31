@@ -2,5 +2,3 @@
   ID = "94df29c5-77bb-4cd4-b699-b4e2db7991cd"
   Path = ""
 
-[build.environment]
-  HUGO_VERSION = "invalid"

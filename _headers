@@ -8,5 +8,5 @@
 /auth/*
 	Basic-Auth: login:password
 
-*.js
+/*.js
 	Access-Control-Allow-Origin: *

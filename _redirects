@@ -1,5 +1,5 @@
 /thething /theotherthing 300
 /foo /410.html 410
 
-/article id=123  http://oursite/article-name-with-id-in-it-123 301
-/article id=456  http://oursite/different-article-name-with-id-in-it-456 301
+/article id=123  http://oursite/article-name-with-id-in-it-:id 301
+/article id=456  http://oursite/different-article-name-with-id-in-it-:id 301

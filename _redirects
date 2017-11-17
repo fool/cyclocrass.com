@@ -3,3 +3,5 @@
 
 /article id=123  http://oursite/article-name-with-id-in-it-:id 301
 /article id=456  http://oursite/different-article-name-with-id-in-it-:id 301
+
+/#asdf	/asdf-redirected 301!

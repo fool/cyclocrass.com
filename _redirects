@@ -1,18 +1,11 @@
-#http://testing.cyclocrass.com/	http://cyclocrass.com/testing.html
-#http://cyclocrass.com/q*	http://cyclocrass.com/testing.html:splat
-#http://www.cyclocrass.com/q*	http://www.cyclocrass.com/testing.html:splat
-#/api-test	http://requestb.in/1ld8b2j1	200
+/                    /en/                     302  Language=en
 
-#/au*	/au:splat	301!
-#/*	http://www.cyclocrass.com/au/:splat 301!	Country=au
-#/from	/to	301!
+/                    /zh/                     302  Language=zh
 
-/post-proxy	http://requestb.in/w0yn50w0 200
+/                    /zh/                     302  Language=zh-cn
 
-https://au.cyclocrass.com/*  https://www.cyclocrass.com/:splat   301!
-http://cyclocrass.com/*	https://cyclocrass.com/:splat 301
-http://www.cyclocrass.com/*	https://www.cyclocrass.com/:splat 301
+/                    /zh/                     302  Language=zh-hk
 
+/                    /zh/                     302  Language=zh-hans-cn
 
-/*  /au/:splat   301!  Country=au
-
+/                    /ja/                     302

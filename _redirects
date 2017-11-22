@@ -1,7 +1,11 @@
-/thething /theotherthing 300
-/foo /410.html 410
+/                    /en/                     302  Language=en
 
-/article id=123  http://oursite/article-name-with-id-in-it-:id 301
-/article id=456  http://oursite/different-article-name-with-id-in-it-:id 301
+/                    /zh/                     302  Language=zh
 
-/#asdf	/asdf-redirected 301!
+/                    /zh/                     302  Language=zh-cn
+
+/                    /zh/                     302  Language=zh-hk
+
+/                    /zh/                     302  Language=zh-hans-cn
+
+/                    /ja/                     302

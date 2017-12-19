@@ -3,6 +3,7 @@
 
 /*.mp4
 	X-Robots-Tag: "noindex,nofollow"
+	Accept-Ranges: none
 
 
 /auth/*

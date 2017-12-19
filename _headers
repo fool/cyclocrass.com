@@ -2,7 +2,6 @@
 	Access-Control-Allow-Origin: "https://www.cyclocrass.com", "https://alias.cyclocrass.com"
 
 /*.mp4
-	X-Robots-Tag: "noindex,nofollow"
 	Accept-Ranges: none
 
 
@@ -10,4 +9,5 @@
 	Basic-Auth: login:password
 
 /*.js
+	X-Robots-Tag: "noindex,nofollow"
 	Access-Control-Allow-Origin: *

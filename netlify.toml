@@ -2,3 +2,5 @@
   ID = "94df29c5-77bb-4cd4-b699-b4e2db7991cd"
   Path = ""
 
+[context.build]
+  command = "/bin/echo deploy prime URL is $DEPLOY_PRIME_URL"

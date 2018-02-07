@@ -3,4 +3,24 @@
   Path = ""
 
 [build]
-  command = "/bin/echo deploy prime URL is $DEPLOY_PRIME_URL"
+  command = "/bin/echo this is default command"
+[build.environment]
+  HUGO_VERSION = "0.36"
+
+[context.master]
+  command = "/bin/echo this is master command with $MYSETTING using $HUGO_VERSION"
+[context.master.environment]
+  MYSETTING= "set"
+
+[context.deploy-preview]
+  command = "/bin/echo this is deploy-preview command"
+
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.36"
+
+[context.next]
+command = "hugo -b $DEPLOY_PRIME_URL/foo"
+
+[context.next.environment]
+  HUGO_ENABLEGITINFO = "true"
+

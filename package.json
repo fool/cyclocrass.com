@@ -118,7 +118,8 @@
     "gifsicle": "",
     "process-nextick-args": "",
     "filename-regex": "",
-    "arr-diff": ""
+    "arr-diff": "",
+    "array-unique": ""
   },
   "devDependencies": {
     "@types/node": "^6.0.48",

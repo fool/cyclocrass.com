@@ -115,6 +115,7 @@
     "webpack-bundle-analyzer": "^2.3.1",
     "whatwg-fetch": "^2.0.3",
     "ws": "^2.2.3",
+    "gifsicle": "",
     "process-nextick-args": "",
     "filename-regex": "",
     "arr-diff": ""

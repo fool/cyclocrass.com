@@ -116,7 +116,8 @@
     "whatwg-fetch": "^2.0.3",
     "ws": "^2.2.3",
     "process-nextick-args": "",
-    "filename-regex": ""
+    "filename-regex": "",
+    "arr-diff": ""
   },
   "devDependencies": {
     "@types/node": "^6.0.48",

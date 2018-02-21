@@ -13,7 +13,7 @@
   MYSETTING= "set"
 
 [context.deploy-preview]
-  command = "/bin/echo this is deploy-preview command"
+  command = "echo 'this is a deploy preview' && env && echo 'this is a deploy preview'"
 
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.36"

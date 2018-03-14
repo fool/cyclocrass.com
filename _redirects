@@ -1,4 +1,4 @@
 https://1test.cyclocrass.com/platform/*     https://host1.domain.com/:splat     200!
 https://2test.cyclocrass.com/platform/*     https://host2.domain.com/:splat     200!
 
-/ASDF.html	/asdf.html	200!
+/ASDF.html	/form2.html	200!

@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Google Analytics -->
+	<!-- <style>.async-hide { opacity: 0 !important} </style>
+<script>
+(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-K8CD4XZ':true});
+</script> -->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-37076997-1', 'auto');
+ga('require', 'GTM-K8CD4XZ');
+ga('send', 'pageview');
+</script>
+
+	<title>Framer - Page Not Found</title>
+
+	<!-- Search engines -->
+	<link rel="canonical" href="https://">
+	<meta name="referrer" content="unsafe-url">
+	<meta name="keywords" content="prototyping tool, prototyping, interaction design, interaction, javascript, animation, android, ios, online, sketch, mockup, design, design tool">
+
+	
+	
+		<meta name="description" content="Framer is the best way to create interactive designs from start to finish. Design from scratch and then easily turn your work into high-fidelity prototypes. Used by Facebook, Google, and more.">
+	
+
+	
+		<!-- Facebook -->
+<meta property="og:url" content="http://framer.com/">
+<meta property="og:title" content="Design, code and collaborate.">
+<meta property="og:description" content="Framer is a professional interaction design tool for the modern product designer.">
+<meta property="og:image" content="http://framer.com/assets/static/images/social/social.png">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="photo">
+<meta name="twitter:site" content="@framer">
+<meta name="twitter:creator" content="@framer">
+<meta name="twitter:title" content="Design, code and collaborate.">
+<meta name="twitter:description" content="Framer is a professional interaction design tool for the modern product designer." />
+<meta name="twitter:image:src" content="http://framer.com/assets/static/images/social/social.png?12">
+<meta name="twitter:domain" content="http://framer.com/">
+
+<!-- Microdata -->
+<meta itemprop="name" content="Design, code and collaborate.">
+<meta itemprop="description" content="Framer is a professional interaction design tool for the modern product designer.">
+<meta itemprop="image" content="http://framer.com/assets/static/images/social/social.png">
+
+	
+
+	<!-- Mobile viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<!-- Touch Icons -->
+	<link rel="apple-touch-icon" href="/assets/static/images/touchicons/76.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/static/images/touchicons/76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/static/images/touchicons/120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/static/images/touchicons/152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/static/images/touchicons/180.png">
+	<link rel="apple-touch-icon" sizes="192x192" href="/assets/static/images/touchicons/192.png">
+
+	<!-- Preload fonts -->
+	<link rel="preload" href="/assets/static/fonts/ColfaxWebRegular.woff2" as="font" crossorigin>
+	<link rel="preload" href="/assets/static/fonts/ColfaxWebLight.woff2" as="font" crossorigin>
+	<link rel="preload" href="/assets/static/fonts/ColfaxWebMedium.woff2" as="font" crossorigin>
+
+	<!-- Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="icon" sizes="192x192" href="/assets/static/images/touchicons/192.png">
+
+	<!-- Chrome -->
+	<link rel="shortcut icon" sizes="16x16" href="/assets/static/images/favicon.png">
+	<link rel="shortcut icon" sizes="32x32" href="/assets/static/images/favicon@2x.png">
+
+	<!-- Scripts -->
+	<script src="/assets/static/js/navigation.js"></script>
+
+	<!-- Styling -->
+	
+	<link rel="stylesheet" href="/assets/css/style.css">
+	
+
+	<!-- Android Tab Color -->
+	<meta name="theme-color" content="#FFF">
+
+	<!-- Download link -->
+	<script>
+DOWNLOAD_LINK = "https://dl.devmate.com/com.motif.framer/FramerStudio.zip";
+</script>
+
+</head>
+
+<body class="error    ">
+
+	
+
+	
+		<nav class="nav-main nav-teaser">
+	<ul class="nav-list">
+		<li>
+			<a href="/" class="nav-logo">
+				<svg width="14" height="21">
+					<g fill="none" fill-rule="evenodd">
+						<path class="logo-top" fill="#AEF" d="M0 0h14v7H7"/>
+						<path class="logo-middle" fill="#0AF" d="M0 7h7l7 7H0"/>
+						<path class="logo-bottom" fill="#04F" d="M0 14h7v7"/>
+					</g>
+				</svg>
+			</a>
+			<div class="nav-countdown teaser-clock">
+				<a href="/">
+					<time data-type="days">00</time>
+					<span>:</span>
+					<time data-type="hours">00</time>
+					<span>:</span>
+					<time data-type="minutes">00</time>
+					<span>:</span>
+					<time data-type="seconds">00</time>
+				</a>
+				<span class="hide-mobile-s">until the new Framer.</span>
+			</div>
+		</li>
+		<li class="with-sub">
+			<a class="">
+				<span>Features</span>
+				<svg width="9" height="5">
+					<polyline class="sub-arrow" fill="none" stroke="#999" points=".5 .5 4.5 4.5 8.5 .5"/>
+				</svg>
+			</a>
+			<ul class="sub">
+				<li><a href="/features/" class="">Overview</a></li>
+				<li><a href="/features/design" class="">Design</a></li>
+				<li><a href="/features/code" class="">Code</a></li>
+				<li><a href="/features/collaborate" class="">Collaborate</a></li>
+			</ul>
+		</li>
+		<li class="with-sub">
+			<a class="">
+				<span>Get Started</span>
+				<svg width="9" height="5" viewBox="0 0 9 5">
+				<polyline class="sub-arrow" fill="none" stroke="#999" points=".5 .5 4.5 4.5 8.5 .5"/></svg>
+			</a>
+			<ul class="sub">
+				<li><a href="/getstarted/tutorials" class="">Tutorials</a></li>
+				<li><a href="/getstarted/resources" class="">Resources</a></li>
+				<li><a href="/getstarted/guides" class="">Guides</a></li>
+				<li><a href="/getstarted/examples" class="">Examples</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="/community" class="">
+				Community
+			</a>
+		</li>
+		<li>
+			<a href="//blog.framer.com/" target="_blank" rel="noopener">Blog</a>
+		</li>
+		<li>
+			<a href="/enterprise" class="">Enterprise</a>
+		</li>
+		<li>
+			<a href="/pricing" class="">Pricing</a>
+		</li>
+		<li class="download">
+			<a href="/download" class="button icon small blue">
+				<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+					<g fill="none" fill-rule="evenodd">
+						<circle cx="7.5" cy="7.5" r="7.5" fill="#FFFFFF"/>
+						<polyline stroke="#17AFFD" points="10.5 8.5 7.5 11.5 4.5 8.5"/>
+						<rect width="1" height="7" x="7" y="4" fill="#17AFFD"/>
+					</g>
+				</svg>
+				<span>Free Trial</span>
+			</a>
+		</li>
+		
+			<li id="trial-form" class="maxwidth-xxs padding-s">
+				<p class="small">Sign up below to start your free 14-day trial.</p>
+				<form data-id="trial" data-redirect="/forms/signup/thanks.html" class="form-inline margin-s-top">
+					<input type="email" placeholder="Your email" class="email strip-margin"/>
+					<button type="submit" class="button blue">Send</button>
+				</form>
+			</li>
+		
+	</ul>
+	<span class="nav-icon">
+		<svg width="18" height="11" viewBox="0 0 18 11">
+			<path fill="#000000" fill-rule="evenodd" d="M0,10 L18,10 L18,11 L0,11 L0,10 Z M0,5 L18,5 L18,6 L0,6 L0,5 Z M0,0 L18,0 L18,1 L0,1 L0,0 Z"/>
+		</svg>
+	</span>
+</nav>
+
+	
+
+	<main class="wrapper " itemscope itemtype="http://schema.org/SoftwareApplication">
+
+		
+			<section class="banner padding-xs">
+	<div class="banner-content container flex-center-vertical">
+		<p class="strip small"><strong>Framer is for Mac only.</strong> Get notified when we launch a Windows version.</p>
+		<form id="newsletter-form" data-id="0d1ac4e0f0" data-redirect="/newsletter/thanks/"  class="form-inline validate">
+			<input class="email" type="email" placeholder="Your email" />
+			<button type="submit" class="button blue dim">Subscribe</button>
+		</form>
+		<div class="banner-close">
+			<svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
+				<path fill="#AAA" fill-rule="evenodd" d="M5,4 L5,-1 L4,-1 L4,4 L-1,4 L-1,5 L4,5 L4,10 L5,10 L5,5 L10,5 L10,4 L5,4 Z" transform="rotate(45 4.5 4.5)"/>
+			</svg>
+		</div>
+	</div>
+	<div class="banner-thanks container">
+		<p class="color-black strip small center">
+			Thanks for subscribing. We’ll keep you posted!
+		</p>
+	</div>
+</section>
+
+		
+
+		
+<script type="text/javascript" charset="utf-8">
+
+	// Redirect table, matching is by order and no hash means catch all
+	var redirects = [
+		["/learn.html#basics", "/learn/basics/"],
+		["/learn.html#importing", "/learn/import/"],
+		["/learn.html#mirror", "/learn/preview/"],
+		["/learn.html#coffeescript", "/learn/coffeescript/"],
+		["/learn", "/learn/basics/"],
+		["/learn.html", "/learn/basics/"], // Catch all
+		["/more.html", "/faq/"],
+		["/docs.html", "/docs/"],
+		["/framer", "/"],
+	]
+
+	// Location path without trailing slash (eg: "/learn/" -> "/learn")
+	var path = window.location.pathname.replace(/\/$/, "")
+	var hash = window.location.hash.replace(/\/$/, "")
+
+	function parse(input) {
+		var result = {"path": input, "hash": null}
+
+		if (input.indexOf("#") != -1) {
+			result.path = input.split("#")[0]
+			result.hash = "#" + input.split("#")[1]
+		}
+
+		return result
+	}
+
+	for (var i=0; i < redirects.length; i++) {
+		var info = parse(redirects[i][0])
+
+		if (info.path == path) {
+
+			if (info.hash != null && info.hash != hash) {
+				continue
+			}
+
+			window.location.replace(redirects[i][1])
+		}
+	}
+
+</script>
+
+<div class="container fullheight minheight-xs">
+	<section class="center">
+		<h2>Page not found.</h2>
+		<a class="button blue margin-xs-top" href="/">Home</a>
+	</section>
+</div>
+
+
+	</main>
+
+	
+		<footer>
+	<section class="container">
+		<ul class="flex">
+			<li class="footer-list">
+				<h6>Framer</h6>
+				<ul class="strip-margin">
+					<li><a href="/pricing/">Pricing</a></li>
+					<li><a href="/enterprise">Enterprise</a></li>
+					<li><a href="/forms/education/">Education</a></li>
+					<li><a href="/updates/">Updates</a></li>
+					<li><a href="/beta/">Beta</a></li>
+				</ul>
+			</li>
+
+			<li class="footer-list">
+				<h6>Features</h6>
+				<ul>
+					<li><a href="/features">Overview</a></li>
+					<li><a href="/features/design/">Design</a></li>
+					<li><a href="/features/code/">Code</a></li>
+					<li><a href="/features/collaborate/">Collaborate</a></li>
+				</ul>
+			</li>
+
+			<li class="footer-list">
+				<h6>Get Started</h6>
+				<ul>
+					<li><a href="/getstarted/tutorials/">Tutorials</a></li>
+					<li><a href="/getstarted/resources/">Resources</a></li>
+					<li><a href="/getstarted/guides/">Guides</a></li>
+					<li><a href="/getstarted/examples">Examples</a></li>
+					<li><a href="/docs/" target="_blank" rel="noopener">Docs</a></li>
+				</ul>
+			</li>
+
+			<li class="footer-list">
+				<h6>About</h6>
+				<ul>
+					<li><a href="//blog.framer.com/">Blog</a></li>
+					<li><a href="/jobs/">Jobs</a></li>
+					<li><a href="/brand/">Brand Assets</a></li>
+					<li><a href="/community">Community</a></li>
+					<li><a href="https://help.framer.com/" target="_blank" rel="noopener">Help Center</a></li>
+				</ul>
+			</li>
+
+			<li class="footer-list">
+				<h6>Platforms</h6>
+				<ul>
+					<li><a href="/platforms/ios">Design for iOS</a></li>
+					<li><a href="/platforms/android">Design for Android</a></li>
+					<li><a href="/platforms/web">Design for Web</a></li>
+				</ul>
+			</li>
+			<li class="footer-list inline">
+				<h6>Downloads</h6>
+				<ul>
+					<li><a href="/voyage" target="_blank">Voyage UI Kit</a></li>
+					<li><a href="/fiber" target="_blank">Fiber UI Kit</a></li>
+					<li><a href="https://itunes.apple.com/app/id1124920547" target="_blank">Framer for iOS</a></li>
+					<li><a href="https://play.google.com/store/apps/details?id=com.framerjs.android" target="_blank">Framer for Android</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<div class="footer-icons center margin-xs-top">
+			<div>
+				<a href="https://twitter.com/framer" class="dim" target="_blank" rel="noopener">
+					<svg width="24" height="24" viewBox="0 0 24 24"><path fill="#AAA" fill-rule="evenodd" d="M21 6.657c-.625.28-1.298.47-2.003.557.72-.438 1.273-1.13 1.533-1.956-.673.405-1.42.7-2.214.858C17.68 5.43 16.773 5 15.77 5c-1.926 0-3.488 1.582-3.488 3.534 0 .277.03.547.09.806-2.9-.148-5.468-1.555-7.188-3.693-.3.522-.473 1.13-.473 1.777 0 1.226.617 2.308 1.553 2.94-.572-.017-1.11-.176-1.58-.44v.044c0 1.712 1.202 3.14 2.798 3.465-.292.08-.6.124-.918.124-.225 0-.443-.022-.656-.063.443 1.404 1.73 2.426 3.258 2.455-1.194.947-2.698 1.51-4.332 1.51-.282 0-.56-.015-.832-.048C5.543 18.415 7.377 19 9.347 19c6.415 0 9.923-5.386 9.923-10.056 0-.153-.003-.306-.01-.458.68-.498 1.272-1.12 1.74-1.83"/></svg>
+				</a>
+				<a href="https://www.facebook.com/framerjs/" class="dim" target="_blank" rel="noopener">
+					<svg width="24" height="24" viewBox="0 0 24 24">
+						<path fill="#AAA" fill-rule="evenodd" d="M7,4 L17,4 C18.6568542,4 20,5.34314575 20,7 L20,17 C20,18.6568542 18.6568542,20 17,20 L7,20 C5.34314575,20 4,18.6568542 4,17 L4,7 L4,7 C4,5.34314575 5.34314575,4 7,4 L7,4 Z M15,14.4615385 L16.5555556,14.4615385 L17,12.3846154 L15,12.3846154 L15,11 C14.8945007,10.4134096 15.0596079,9.99253257 15.8888889,10.0769231 L17,10.0769231 L17,8 C16.8117941,8.05809766 16.1662545,8 15.4444444,8 C13.847054,8 12.7735002,8.99412139 12.7777778,10.7692308 L12.7777778,12.3846154 L11,12.3846154 L11,14.4615385 L12.7777778,14.4615385 L12.7777778,20 L15,20 L15,14.4615385 Z"/></svg>
+				</a>
+				<a href="https://dribbble.com/framer" class="dim" target="_blank" rel="noopener">
+					<svg width="24" height="24" viewBox="0 0 24 24"><path fill="#AAA" fill-rule="evenodd" d="M17.29 7.69c-.145.194-1.29 1.662-3.816 2.693.16.326.312.657.453.99l.148.353c2.273-.286 4.533.172 4.758.22-.015-1.613-.592-3.094-1.543-4.257M10.4 5.366c.188.253 1.43 1.943 2.548 4 2.43-.91 3.46-2.293 3.582-2.468-1.207-1.072-2.794-1.723-4.53-1.723-.55 0-1.088.066-1.6.19M5.31 10.61c.307.005 3.122.017 6.32-.832-1.134-2.013-2.355-3.705-2.535-3.952-1.912.902-3.34 2.664-3.784 4.785m1.614 5.97c.154-.266 2.03-3.37 5.554-4.51.09-.03.18-.056.27-.082-.172-.387-.36-.776-.555-1.16-3.412 1.022-6.723.98-7.022.974l-.003.208c0 1.755.665 3.357 1.756 4.57m7.746 1.72c-.102-.6-.5-2.69-1.46-5.182l-.044.015c-3.854 1.344-5.237 4.017-5.36 4.268 1.158.905 2.615 1.444 4.194 1.444.947 0 1.85-.194 2.67-.544m4.077-5.205c-.234-.074-2.115-.635-4.256-.293.894 2.457 1.258 4.457 1.328 4.872 1.533-1.036 2.624-2.678 2.93-4.58M12 20c-4.41 0-8-3.59-8-8 0-4.412 3.59-8 8-8 4.412 0 8 3.588 8 8 0 4.41-3.588 8-8 8"/></svg>
+				</a>
+				<a href="https://medium.com/@framerteam" class="dim" target="_blank" rel="noopener">
+					<svg width="24" height="24" viewBox="0 0 24 24"><path fill="#AAA" d="M5.017 8.856c.023-.217-.063-.43-.23-.576L3 6h5.385l4.102 8.667L16.094 6H21.5L20 8v10l2 2h-8.06v-.296L16 18V9l-4.547 10.967h-.556L6.11 9.91v6.74c-.04.284.06.57.266.774L8 20H3.077l1.692-2.576c.205-.205.297-.493.247-.774V8.856z"/></svg>
+				</a>
+				<a href="https://www.youtube.com/channel/UCW5gUZ7lKGrAbLOkHv2xfbw" class="dim" target="_blank" rel="noopener">
+					<svg width="24" height="24" viewBox="0 0 24 24"><path fill="#AAA" fill-rule="evenodd" d="M10 15V9l5 3.01L10 15zm10.82-6.98s-.176-1.372-.715-1.976c-.685-.793-1.452-.796-1.804-.842C15.783 5 12.005 5 12.005 5h-.008S8.218 5 5.7 5.202c-.353.046-1.12.05-1.805.842-.54.604-.715 1.976-.715 1.976S3 9.63 3 11.24v1.512c0 1.61.18 3.22.18 3.22s.175 1.373.715 1.977c.685.792 1.584.767 1.985.85 1.44.153 6.12.2 6.12.2s3.782-.006 6.3-.208c.353-.046 1.12-.05 1.805-.843.54-.605.715-1.977.715-1.977s.18-1.61.18-3.22V11.24c0-1.61-.18-3.22-.18-3.22z"/></svg>
+				</a>
+				<a href="https://framer-slack-signup.herokuapp.com/" class="dim" target="_blank" rel="noopener">
+					<svg width="24" height="24" viewBox="0 0 24 24"><path fill="#AAA" fill-rule="evenodd" d="M20.247 9.526C18.39 3.34 15.71 1.898 9.527 3.753 3.34 5.61 1.896 8.29 3.752 14.473c1.856 6.186 4.536 7.63 10.72 5.774 6.186-1.856 7.63-4.536 5.774-10.72m-3.13 4.014l-1.165.39.404 1.21c.164.487-.1 1.016-.588 1.18-.106.035-.214.05-.32.048-.382-.01-.733-.255-.86-.637l-.405-1.206-2.405.806.404 1.206c.164.49-.1 1.018-.588 1.182-.107.035-.215.05-.32.047-.382-.01-.733-.254-.86-.636l-.406-1.208-1.166.39c-.106.036-.215.052-.32.05-.38-.01-.733-.255-.86-.638-.165-.488.1-1.017.587-1.18l1.166-.392-.776-2.314-1.166.39c-.106.036-.214.05-.32.05-.38-.01-.733-.256-.86-.638-.165-.488.1-1.017.587-1.18l1.168-.392-.404-1.206c-.164-.49.1-1.018.588-1.18.49-.165 1.018.098 1.18.587l.405 1.206 2.405-.806-.404-1.206c-.164-.49.1-1.018.588-1.18.49-.165 1.018.1 1.182.587l.403 1.208 1.168-.39c.49-.165 1.017.1 1.18.587.164.49-.1 1.018-.588 1.182l-1.166.39.775 2.315 1.166-.39c.488-.164 1.017.1 1.18.588.164.49-.1 1.017-.588 1.18zm-6.707-2.295l.775 2.315 2.405-.806-.775-2.314-2.405.805z"/></svg>
+				</a>
+			</div>
+		</div>
+	</section>
+	<p class="copyright">Copyright &copy; 2017 Motif Tools BV. All rights reserved.</p>
+</footer>
+
+	
+
+	
+
+	
+		<section class="player">
+	<div class="video-wrapper">
+		<div class="video">
+			<div id="yt"></div>
+		</div>
+	</div>
+	<span class="video-close">
+		<svg width="25" height="25" viewBox="0 0 25 25">
+			<g fill="#CCC" fill-rule="evenodd" transform="rotate(45 19.328 9.672)">
+				<rect width="1" height="33" x="16"/>
+				<rect width="1" height="33" x="16" transform="rotate(-90 16.5 16.5)"/>
+			</g>
+		</svg>
+	</span>
+</section>
+	
+
+	
+	<script src="//cdn.paddle.com/paddle/paddle.js"></script>
+	<script src="/assets/scripts/index.js"></script>
+	<!-- DevMate Traffic Tracking script -->
+<script type="text/javascript">
+	/* DO NOT MODIFY */
+	var _dmq = _dmq || [];
+	_dmq.push( ['_setAccount', 'DM-0000518'] );
+	/* END "DO NOT MODIFY" */
+
+	_dmq.push( ['_setUseGoogle', true] );
+	_dmq.push( ['_trackProducts', '0003'] );
+
+	(function() {
+	var dmt = document.createElement('script'); dmt.type = 'text/javascript'; dmt.async = true;
+	dmt.src = window.location.protocol + '//cdn.devmate.com/track/dm.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(dmt, s);
+	})();
+</script>
+
+	<script>
+window.intercomSettings = {
+	app_id: "gmqktfjv"
+};
+</script>
+<script>
+	var page = window.location.pathname.split("/")
+	
+	if (window.location.host === "framer.com") {
+		if (page[1] === "pricing" || page[1] === "enterprise" || page[1] === "community" || page[1] === "expired" || page[1] === "welcome" || page[1] === "getstarted" && page[2] === "guides" && page[3] === "collaborate") {
+			(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/gmqktfjv';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+		}
+	}
+</script>
+
+
+	
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+[Settings]
+  ID = "d941cd05-810c-44ee-963b-a218e9528a70"
+
+[Build]
+  Publish = ""
+  Functions = ""
+
+[build.environment]
+  VAR = "value"

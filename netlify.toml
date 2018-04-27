@@ -1,5 +1,5 @@
 [Settings]
-  ID = "d941cd05-810c-44ee-963b-a218e9528a70"
+  ID = "94df29c5-77bb-4cd4-b699-b4e2db7991cd"
 
 [Build]
   Publish = ""
@@ -7,3 +7,9 @@
 
 [build.environment]
   VAR = "value"
+
+[[redirects]]
+  from = "/redirect/*"  
+  to = "/bob/:splat?a=:a" 
+  status = 302 
+  query = {a = ":a"} 

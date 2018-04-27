@@ -1,1 +1,0 @@
-/redirect/* a=:a /test/:splat?a=:a 302!

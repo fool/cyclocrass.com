@@ -1,1 +1,1 @@
-/redirect/* /index.html/:splat?asdf=a 301!
+/redirect/* /test/:splat?a=b 301!

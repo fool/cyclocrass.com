@@ -9,7 +9,7 @@
   VAR = "value"
 
 [[redirects]]
-  from = "/redirect/*"  
-  to = "/bob/:splat?a=:a" 
+  from = "/link/*"  
+  to = "https://q42.me/link/:splat?service_id=:service_id" 
   status = 302 
-  query = {a = ":a"} 
+  query = {service_id = ":service_id"} 

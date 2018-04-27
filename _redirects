@@ -1,1 +1,1 @@
-/redirect/* a=:a /test/:splat?a=:a 301!
+/redirect/* a=:a /test/:splat?a=:a 302!

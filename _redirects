@@ -1,3 +1,5 @@
 /*.notreally	/form2.html	301
 /*.alsotry	/form2.html	404
 /*.proxy	/index.html?:splat 301
+/test301	https://q42.me	301
+/test302	https://q42.me	301

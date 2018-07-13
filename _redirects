@@ -3,3 +3,4 @@
 /*.proxy	/index.html?:splat 301
 /test301	https://q42.me	301
 /test302	https://q42.me	301
+/testdir/*.html	/testdir/:splat	301

@@ -10,6 +10,6 @@
 
 [[redirects]]
   from = "/link/*"  
-  to = "https://q42.me/link/:splat?service_id=:service_id" 
-  status = 302 
-  query = {service_id = ":service_id"} 
+  to = "https://futuregerald-requestbin.herokuapp.com/rpzpeurq"
+  status = 200 
+  header = {Origin = "something"} 

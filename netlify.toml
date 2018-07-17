@@ -12,4 +12,5 @@
   from = "/link/*"  
   to = "https://futuregerald-requestbin.herokuapp.com/rpzpeurq"
   status = 200 
-  header = {Origin = "something"} 
+  [redirects.headers]
+    Origin = "NetlifyO"

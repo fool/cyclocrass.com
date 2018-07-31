@@ -4,6 +4,7 @@
 [Build]
   Publish = ""
   Functions = ""
+  command = "env"
 
 [build.environment]
   VAR = "value"

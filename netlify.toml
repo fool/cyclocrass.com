@@ -2,8 +2,9 @@
   ID = "94df29c5-77bb-4cd4-b699-b4e2db7991cd"
 
 [Build]
-  Publish = ""
+  publish = "."
   Functions = ""
+  command = "sleep 1000 && ls"
 
 [build.environment]
   VAR = "value"

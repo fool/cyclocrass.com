@@ -4,7 +4,6 @@
 [Build]
   publish = "."
   Functions = ""
-  command = "sleep 1000 && ls"
 
 [build.environment]
   VAR = "value"

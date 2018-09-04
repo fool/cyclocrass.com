@@ -7,3 +7,4 @@
 /test302	https://q42.me	301
 /testdir/*.htm	/testdir/:splat	301
 /requestbin	https://futuregerald-requestbin.herokuapp.com/1m5u2x31 200
+/hi-folks/ 200! Role=admin

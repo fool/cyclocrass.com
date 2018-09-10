@@ -1,16 +1,63 @@
-[Settings]
-  ID = "94df29c5-77bb-4cd4-b699-b4e2db7991cd"
-
-[Build]
-  publish = "."
-  Functions = ""
-
-[build.environment]
-  VAR = "value"
 
 [[redirects]]
-  from = "/link/*"  
-  to = "https://futuregerald-requestbin.herokuapp.com/rpzpeurq"
-  status = 200 
-  [redirects.headers]
-    Origin = "NetlifyO"
+# COMMENT: Language field routing
+# COMMENT: Route for fr (Français)
+#/  /fr  302 Language=fr
+# COMMENT: for fr (Français) 404
+#/fr/*  /fr/404.html  404
+
+# COMMENT: Old URL's to New
+#[[redirects]]
+#from = "https://owenbaldwin.netlify.com/*"
+#to = "https://owenbaldwin.co.uk/:splat"
+#status = 301
+#force = true
+
+[[redirects]]
+from = "/projects"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/films"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/press"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/about"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/about/privacy"
+to = "/privacy"
+status = 301
+force = false
+
+[[redirects]]
+from = "/contact"
+to = "/"
+status = 301
+force = false
+
+[[headers]]
+# COMMENT: This defines which paths this specific [[headers]] block will cover.
+for = "/*" 
+[headers.values]
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+  # COMMENT: ADDED "img-src 'self' data:" for video player icons in Safari - loaded by browser via data:xml
+  # COMMENT: Content-Security-Policy-Report-Only = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
+  Content-Security-Policy = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
+  X-Clacks-Overhead = "GNU Terry Pratchett"

@@ -8,3 +8,4 @@
 /testdir/*.htm	/testdir/:splat	301
 /requestbin	https://futuregerald-requestbin.herokuapp.com/1m5u2x31 200
 /hi-folks/*	200!	Role=admin
+/geo/*	200!	Country=us,uk

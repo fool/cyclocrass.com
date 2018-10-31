@@ -7,6 +7,6 @@
 /test302	https://q42.me	301
 /testdir/*.htm	/testdir/:splat	301
 /requestbin	https://futuregerald-requestbin.herokuapp.com/1b4o9bh1 200
-/proxy-check	http://q42.me/test
+/proxy-check	http://q42.me/test 200
 /hi-folks/*	200!	Role=admin
 /geo/*	200!	Country=us,uk

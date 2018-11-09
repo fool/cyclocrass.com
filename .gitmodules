@@ -1,3 +1,0 @@
-[submodule "packages/designkit"]
-	path = packages/designkit
-	url = https://github.com/appbaseio/designkit.git

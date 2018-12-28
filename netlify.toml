@@ -1,3 +1,6 @@
+[context.newstaging]
+  command = env && echo "this was built via toml"
+
 
 # [[redirects]]
 # COMMENT: Language field routing

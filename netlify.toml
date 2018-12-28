@@ -1,5 +1,5 @@
 [context.newstaging]
-  command = env && echo "this was built via toml"
+  command = 'env && echo "this was built via toml"'
 
 
 # [[redirects]]

@@ -1,10 +1,13 @@
 [context.newstaging]
-  command = 'env && sed -i s/COMMENT/${COMMENT_TEXT}/g netlify.toml'
+  command = 'sed -i s/PLACEHOLDER_BACKEND_API/${BACKEND_API}/g netlify.toml'
+[context.newstaging.environment]
+  BACKEND_API="https://test.api"
 
 
 # [[redirects]]
 # COMMENT: Language field routing
 # COMMENT: Route for fr (Français)
+# PLACEHOLDER_BACKEND_API
 #/  /fr  302 Language=fr
 # COMMENT: for fr (Français) 404
 #/fr/*  /fr/404.html  404

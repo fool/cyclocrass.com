@@ -1,7 +1,6 @@
 [context.newstaging]
   command = 'sed -i s/PLACEHOLDER_BACKEND_API/${BACKEND_API}/g netlify.toml'
-[context.newstaging.environment]
-  BACKEND_API="https://test.api"
+  environment = { BACKEND_API = "https://test.api" }
 
 
 # [[redirects]]

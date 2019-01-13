@@ -1,68 +1,7 @@
-[context.newstaging]
-  command = 'sed -i s/PLACEHOLDER_BACKEND_API/${BACKEND_API}/g netlify.toml'
-  environment = { BACKEND_API = "https://test.api" }
+[context.production]
+  environment = { ACCESS_TOKEN = "super secret", NODE_ENV = "8.0.1" }
 
+[context.branch-deploy]
 
-# [[redirects]]
-# COMMENT: Language field routing
-# COMMENT: Route for fr (Français)
-# PLACEHOLDER_BACKEND_API
-#/  /fr  302 Language=fr
-# COMMENT: for fr (Français) 404
-#/fr/*  /fr/404.html  404
-
-# COMMENT: Old URL's to New
-#[[redirects]]
-#from = "https://owenbaldwin.netlify.com/*"
-#to = "https://owenbaldwin.co.uk/:splat"
-#status = 301
-#force = true
-
-[[redirects]]
-from = "/projects"
-to = "/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/films"
-to = "/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/press"
-to = "/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/about"
-to = "/"
-status = 301
-force = false
-
-[[redirects]]
-from = "/about/privacy"
-to = "/privacy"
-status = 301
-force = false
-
-[[redirects]]
-from = "/contact"
-to = "/"
-status = 301
-force = false
-
-[[headers]]
-# COMMENT: This defines which paths this specific [[headers]] block will cover.
-for = "/*" 
-[headers.values]
-  X-Frame-Options = "DENY"
-  X-XSS-Protection = "1; mode=block"
-  X-Content-Type-Options = "nosniff"
-  Referrer-Policy = "strict-origin-when-cross-origin"
-  # COMMENT: ADDED "img-src 'self' data:" for video player icons in Safari - loaded by browser via data:xml
-  # COMMENT: Content-Security-Policy-Report-Only = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
-  Content-Security-Policy = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
-  X-Clacks-Overhead = "GNU Terry Pratchett"
+[context.branch-deploy.environment]
+  NODE_ENV = "development"

@@ -1,4 +1,4 @@
-
+[build]
  # Default build command with substitution of environment variables.
   command = "env ; sed -i s/WORDPRESS_BASEURL/${WORDPRESS_BASEURL}/ && sed s/URL/${URL}/ && sed s/AUTH_TOKEN/${AUTH_TOKEN}/ netlify.toml && cat netlify.toml"
 

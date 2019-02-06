@@ -1,7 +1,20 @@
-[context.production]
-  environment = { ACCESS_TOKEN = "super secret", NODE_ENV = "8.0.1" }
 
-[context.branch-deploy]
+ # Default build command with substitution of environment variables.
+  command = "env sed -i s/WORDPRESS_BASEURL/${WORDPRESS_BASEURL}/\;s/URL/${URL}/\;s/AUTH_TOKEN/${AUTH_TOKEN}/ netlify.toml && gatsby build"
 
-[context.branch-deploy.environment]
-  NODE_ENV = "development"
+[[redirects]]
+  # Redirect all traffic of the site path to the corresponding url path.
+  from = "/api/*"
+  to = "https://WORDPRESS_BASEURL/wp-json/:splat"
+
+  # Send a normal status code, this is just a proxy.
+  status = 200
+
+  # Redirect even if a file has the same path.
+  force = true
+
+  # Set custom request headers.
+  [redirects.headers]
+    X-From = "URL"
+    X-To = "https://WORDPRESS_BASEURL"
+    X-Auth-Token = "AUTH_TOKEN"

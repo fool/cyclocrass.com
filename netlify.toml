@@ -1,6 +1,6 @@
 
  # Default build command with substitution of environment variables.
-  command = "env ; sed -i s/WORDPRESS_BASEURL/${WORDPRESS_BASEURL}/\;s/URL/${URL}/\;s/AUTH_TOKEN/${AUTH_TOKEN}/ netlify.toml && cat netlify.toml"
+  command = "env ; sed -i s/WORDPRESS_BASEURL/${WORDPRESS_BASEURL}/ && sed s/URL/${URL}/ && sed s/AUTH_TOKEN/${AUTH_TOKEN}/ netlify.toml && cat netlify.toml"
 
 [[redirects]]
   # Redirect all traffic of the site path to the corresponding url path.

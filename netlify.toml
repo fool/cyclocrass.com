@@ -44,6 +44,12 @@ status = 301
 force = false
 
 [[redirects]]
+from = "/api"
+to = "https://futuregerald-requestbin.herokuapp.com/xmq7y9xm"
+status = 200
+
+
+[[redirects]]
 from = "/contact"
 to = "/"
 status = 301

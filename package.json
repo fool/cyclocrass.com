@@ -39,6 +39,7 @@
     "load-grunt-tasks": "^3.5.2"
   },
   "dependencies": {
+    "netlify-cli": "^2.6.6",
     "react-icons": "^2.2.7"
   }
 }

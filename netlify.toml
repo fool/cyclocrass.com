@@ -1,3 +1,5 @@
+[build]
+command = echo "toml build command"
 
 # [[redirects]]
 # COMMENT: Language field routing

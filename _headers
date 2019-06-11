@@ -1,5 +1,6 @@
 /testing.html
 	Access-Control-Allow-Origin: "https://www.cyclocrass.com", "https://alias.cyclocrass.com"
+	Cache-Control: max-age=50
 
 /*.mp4
 	Accept-Ranges: none

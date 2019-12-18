@@ -1,12 +1,10 @@
-/* 	/ 	301
-
-#/*.notreally	/form2.html	301
-#/*.alsotry	/form2.html	404
-#/*.proxy	/index.html?:splat 301
-#/paramtest/* hi=:hi	/index.html?hi=:hi 301
-#/paramtest/* /index.html?:splat 301
-#/test301	https://q42.me	301
-#/test302	https://q42.me	301
-#/testdir/*.htm	/testdir/:splat	301
-#/requestbin	https://enw2t01zuhl5.x.pipedream.net/ 200
-#/hi-folks/*	200!	Role=admin
+/*.notreally	/form2.html	301
+/*.alsotry	/form2.html	404
+/*.proxy	/index.html?:splat 301
+/paramtest/* hi=:hi	/index.html?hi=:hi 301
+/paramtest/* /index.html?:splat 301
+/test301	https://q42.me	301
+/test302	https://q42.me	301
+/testdir/*.htm	/testdir/:splat	301
+/requestbin	https://enw2t01zuhl5.x.pipedream.net/ 200
+/hi-folks/*	200!	Role=admin

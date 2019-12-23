@@ -47,9 +47,9 @@ force = false
 
 [[redirects]]
 from = "/api"
-to = https://enra79ihlnjfb.x.pipedream.net
+to = "https://enra79ihlnjfb.x.pipedream.net"
 status = 200
-signed = "AUTH_TOKEN"
+signed = "$AUTH_TOKEN"
 
 
 [[redirects]]

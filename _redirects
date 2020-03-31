@@ -8,4 +8,4 @@
 /testdir/*.htm	/testdir/:splat	301
 /requestbin/*	http://futuregerald-requestbin.herokuapp.com/1e0t5uf1/?redirect=:splat 200
 /hi-folks/*	200!	Role=admin
-
+https://cyclocrass.netlify.app/test https://www.cyclocrass.com/ 301!

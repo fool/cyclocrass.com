@@ -60,13 +60,13 @@ force = false
 
 [[headers]]
 # COMMENT: This defines which paths this specific [[headers]] block will cover.
-for = "/*" 
-[headers.values]
-  X-Frame-Options = "DENY"
-  X-XSS-Protection = "1; mode=block"
-  X-Content-Type-Options = "nosniff"
-  Referrer-Policy = "strict-origin-when-cross-origin"
-  # COMMENT: ADDED "img-src 'self' data:" for video player icons in Safari - loaded by browser via data:xml
-  # COMMENT: Content-Security-Policy-Report-Only = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
-  Content-Security-Policy = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
-  X-Clacks-Overhead = "GNU Terry Pratchett"
+#for = "/*" 
+#[headers.values]
+#  #X-Frame-Options = "DENY"
+#  X-XSS-Protection = "1; mode=block"
+#  X-Content-Type-Options = "nosniff"
+#  Referrer-Policy = "strict-origin-when-cross-origin"
+#  # COMMENT: ADDED "img-src 'self' data:" for video player icons in Safari - loaded by browser via data:xml
+#  # COMMENT: Content-Security-Policy-Report-Only = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
+#  Content-Security-Policy = "default-src 'self'; img-src 'self' data:; base-uri 'self'"
+#  X-Clacks-Overhead = "GNU Terry Pratchett"

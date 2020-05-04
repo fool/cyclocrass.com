@@ -6,7 +6,7 @@
 /test301	https://q42.me	301
 /test302	https://q42.me	301
 /testdir/*.htm	/testdir/:splat	301
-/requestbin/*	http://futuregerald-requestbin.herokuapp.com/1old8yg1 200
+/requestbin/*	http://futuregerald-requestbin.herokuapp.com/1oid2od1 200
 /hi-folks/*	200!	Role=admin
 https://cyclocrass.netlify.app/test https://cyclocrass.netlify.app/ 301!
 https://cyclocrass.netlify.com/test https://cyclocrass.netlify.app/ 301!

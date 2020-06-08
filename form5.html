@@ -1,0 +1,26 @@
+   <form method="post" id="mycontactform" action="/" name="Doremeo">
+                        <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
+                        <div class="clearfix"></div>
+                        <div id="success"></div>
+                        <div class="row wrap-form">
+                            <div class="form-group col-md-6 col-sm-6">
+                                <h6>Full Name</h6>
+                                <input type="text" name="name" id="name" class="form-control required" placeholder="Enter your full Name...">
+                                <span data-for="name" class="error"></span>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6">
+                                <h6>Email Address</h6>
+                                <input type="email" name="email" id="email" class="form-control required" placeholder="Enter your email address...">
+                                <span data-for="email" class="error"></span>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <h6>Your Message</h6>
+                                <textarea name="message" id="message" class="form-control required" placeholder="Write something to  us..." rows="3"></textarea>
+                                <span data-for="message" class="error"></span>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="submit" value="Send Message" id="submit" class="btn btn-primary"/>
+                                <div class="status-progress"></div>
+                            </div>
+                        </div>
+                    </form>

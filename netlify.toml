@@ -1,7 +1,7 @@
 
 
 [build]
-  ignore = "env | grep /"
+  ignore = ignore-script.sh
 
 # [[redirects]]
 # COMMENT: Language field routing

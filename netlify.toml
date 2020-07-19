@@ -1,7 +1,7 @@
 
 
 [build]
-  ignore = ignore-script.sh
+  ignore = "ignore-script.sh"
 
 # [[redirects]]
 # COMMENT: Language field routing

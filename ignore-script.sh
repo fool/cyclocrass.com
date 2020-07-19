@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -x
-env | grep missing
+env | grep /
 RESULT=$?
 echo result is $RESULT
 exit $RESULT

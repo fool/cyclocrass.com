@@ -1,4 +1,7 @@
 
+[build]
+  ignore = "env | grep notgonnabethere"
+
 # [[redirects]]
 # COMMENT: Language field routing
 # COMMENT: Route for fr (Français)

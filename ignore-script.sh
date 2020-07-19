@@ -1,4 +1,7 @@
 #!/bin/sh
 
+set -x
 env | grep missing
-exit $?
+RESULT=$?
+echo result is $RESULT
+exit $RESULT

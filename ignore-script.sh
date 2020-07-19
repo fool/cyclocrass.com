@@ -1,3 +1,3 @@
 #!/bin/sh
 
-env | grep /
+env | grep missing

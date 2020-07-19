@@ -1,6 +1,6 @@
 
 [build]
-  ignore = "env | grep notgonnabethere"
+  ignore = "env | grep /"
 
 # [[redirects]]
 # COMMENT: Language field routing

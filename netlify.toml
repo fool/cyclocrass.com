@@ -1,7 +1,7 @@
 
 
-[build]
-  ignore = "env && ls"
+#[build]
+#  ignore = "env && ls"
 
 # [[redirects]]
 # COMMENT: Language field routing

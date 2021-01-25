@@ -10,3 +10,4 @@
 /hi-folks/*	200!	Role=admin
 https://cyclocrass.netlify.app/test https://cyclocrass.netlify.app/ 301!
 https://cyclocrass.netlify.com/test https://cyclocrass.netlify.app/ 301!
+http://cyclocrass.com https://www.cyclocrass.com 301!

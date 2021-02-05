@@ -1,6 +1,6 @@
 #[build]
 #command = "echo toml build command"
-ignore = "env"
+ignore = "/bin/false"
 
 # [[redirects]]
 # COMMENT: Language field routing

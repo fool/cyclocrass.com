@@ -6,7 +6,7 @@
 /test301	https://q42.me	301
 /test302	https://q42.me	301
 /testdir/*.htm	/testdir/:splat	301
-/requestbin/*	https://futuregerald-requestbin.herokuapp.com/19o55gv1 200
+/requestbin/*	https://futuregerald-requestbin.herokuapp.com/17fr0411 200
 /hi-folks/*	200!	Role=admin
 /nofile		/?test=val&test2=val2 301
 /go	/?utm_source=direct&utm_medium=direct-mail&utm_campaign=new-market-new-vendor&utm_content=S1 301

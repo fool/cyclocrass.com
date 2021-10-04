@@ -1,6 +1,6 @@
 var axios = require('axios')
 
-axios.get('https://site-api.datocms.com/site?include=item_types%2C')
+axios.get('https://github-bat.v7apps.com/Canada/vuse.com/')
       .then(function (res) {
           console.log(res);
           // ... do something with the response

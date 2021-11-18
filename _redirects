@@ -3,6 +3,7 @@
 /*.proxy	/index.html?:splat 301
 /paramtest/* hi=:hi	/index.html?hi=:hi 301
 /paramtest/* /index.html?:splat 301
+/paramtest2/* /index.html?var=:splat 301
 /test301	https://q42.me	301
 /test302	https://q42.me	301
 /testdir/*.htm	/testdir/:splat	301

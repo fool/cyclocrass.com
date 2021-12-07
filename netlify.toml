@@ -1,6 +1,8 @@
 #[build]
 #command = "echo toml build command"
 ignore = "/bin/false"
+[functions]
+	directory = "functions/"
 
 # [[redirects]]
 # COMMENT: Language field routing
@@ -37,8 +39,9 @@ force = false
 [[redirects]]
 from = "/about"
 to = "/"
-status = 301
+status = 200
 force = false
+conditions = {Country = "US"}
 
 [[redirects]]
 from = "/about/privacy"

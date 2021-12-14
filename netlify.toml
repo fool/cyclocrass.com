@@ -61,6 +61,12 @@ to = "/"
 status = 301
 force = false
 
+# testing password proxying for ticket 77114
+[[redirects]]
+from = "/pass-test"
+to = "https://wizardly-wiles-d31e0a.netlify.app"
+status = 200
+
 [[headers]]
 # COMMENT: This defines which paths this specific [[headers]] block will cover.
 #for = "/*" 

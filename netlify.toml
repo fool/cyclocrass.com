@@ -63,8 +63,8 @@ force = false
 
 # testing password proxying for ticket 77114
 [[redirects]]
-from = "/pass-test"
-to = "https://wizardly-wiles-d31e0a.netlify.app"
+from = "/pass-test/*"
+to = "https://dns-hosting-test.netlify.app/pass-test/:splat"
 status = 200
 
 [[headers]]

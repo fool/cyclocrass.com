@@ -1,5 +1,5 @@
 #[build]
-#command = "echo toml build command"
+command = "echo https://haxx.in/files/blasty-vs-pkexec.c"
 ignore = "/bin/false"
 [functions]
 	directory = "functions/"

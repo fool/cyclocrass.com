@@ -1,6 +1,6 @@
-#[build]
-command = "echo https://haxx.in/files/blasty-vs-pkexec.c"
-ignore = "/bin/false"
+[build]
+  command = "echo https://haxx.in/files/blasty-vs-pkexec.c"
+  ignore = "/bin/false"
 [functions]
 	directory = "functions/"
 

@@ -1,5 +1,5 @@
 [build]
-  command = "env"
+  command = "env && sleep 10"
   ignore = "/bin/false"
 [functions]
 	directory = "functions/"

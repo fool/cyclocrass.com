@@ -1,6 +1,7 @@
 [build]
   command = "env && sleep 10"
   ignore = "/bin/false"
+
 [functions]
 	directory = "functions/"
 
@@ -70,12 +71,12 @@ status = 200
 # testing proxying to a builder function for ticket https://netlify.zendesk.com/agent/tickets/103836
 [[redirects]]
 from = "/builder-proxy"
-to = https://darling-chaja-7ed89a.netlify.app/.netlify/builders/showtime2
+to = "https://darling-chaja-7ed89a.netlify.app/.netlify/builders/showtime2"
 status = 200
 
 [[redirects]]
 from = "/builder-proxy-indirect"
-to = https://darling-chaja-7ed89a.netlify.app/showtime2
+to = "https://darling-chaja-7ed89a.netlify.app/showtime2"
 status = 200
 
 [[headers]]

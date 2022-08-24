@@ -70,12 +70,12 @@ status = 200
 # testing proxying to a builder function for ticket https://netlify.zendesk.com/agent/tickets/103836
 [[redirects]]
 from = "/builder-proxy"
-to = https://darling-chaja-7ed89a.netlify.app/.netlify/builders/showtime
+to = https://darling-chaja-7ed89a.netlify.app/.netlify/builders/showtime2
 status = 200
 
 [[redirects]]
 from = "/builder-proxy-indirect"
-to = https://darling-chaja-7ed89a.netlify.app/showtime
+to = https://darling-chaja-7ed89a.netlify.app/showtime2
 status = 200
 
 [[headers]]

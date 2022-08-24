@@ -67,6 +67,17 @@ from = "/pass-test/*"
 to = "https://dns-hosting-test.netlify.app/pass-test/:splat"
 status = 200
 
+# testing proxying to a builder function for ticket https://netlify.zendesk.com/agent/tickets/103836
+[[redirects]]
+from = "/builder-proxy"
+to = https://darling-chaja-7ed89a.netlify.app/.netlify/builders/showtime
+status = 200
+
+[[redirects]]
+from = "/builder-proxy-indirect"
+to = https://darling-chaja-7ed89a.netlify.app/showtime
+status = 200
+
 [[headers]]
 # COMMENT: This defines which paths this specific [[headers]] block will cover.
 #for = "/*" 

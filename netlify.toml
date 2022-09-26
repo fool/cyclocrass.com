@@ -79,6 +79,11 @@ from = "/builder-proxy-indirect"
 to = "https://darling-chaja-7ed89a.netlify.app/showtime2"
 status = 200
 
+[[redirects]]
+from = "/testing-410"
+to = "/notfound.html"
+status = 410
+
 [[headers]]
 # COMMENT: This defines which paths this specific [[headers]] block will cover.
 #for = "/*" 

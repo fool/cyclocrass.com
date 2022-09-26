@@ -81,7 +81,7 @@ status = 200
 
 [[redirects]]
 from = "/testing-410"
-to = "/notfound.html"
+to = "/testtest.html"
 status = 410
 
 [[headers]]

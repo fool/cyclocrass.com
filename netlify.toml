@@ -84,6 +84,11 @@ from = "/testing-410"
 to = "/testtest.html"
 status = 410
 
+[[redirects]]
+from = "/testing-412"
+to = "/testtest.html"
+status = 412
+
 [[headers]]
 # COMMENT: This defines which paths this specific [[headers]] block will cover.
 #for = "/*" 

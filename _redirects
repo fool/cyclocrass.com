@@ -13,4 +13,4 @@
 /go	/?utm_source=direct&utm_medium=direct-mail&utm_campaign=new-market-new-vendor&utm_content=S1 301
 https://cyclocrass.netlify.app/test https://cyclocrass.netlify.app/ 301!
 https://cyclocrass.netlify.com/test https://cyclocrass.netlify.app/ 301!
-http://cyclocrass.com/* https://www.cyclocrass.com/:splat 301!
+# http://cyclocrass.com/* https://www.cyclocrass.com/:splat 301!

@@ -1,5 +1,5 @@
 [build]
-  command = "env && curl -v https://q42.me && sleep 10"
+  command = "env && curl -v https://q42.me && sleep 10 && env"
   ignore = "/bin/false"
 
 [functions]

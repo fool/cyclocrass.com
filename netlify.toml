@@ -52,7 +52,7 @@ force = false
 
 [[redirects]]
 from = "/api"
-to = "http://futuregerald-requestbin.herokuapp.com/1bqiff11"
+to = "https://eo9bj2wzrgc2qsh.m.pipedream.net"
 status = 200
 
 

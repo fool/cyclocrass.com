@@ -1,5 +1,5 @@
 [build]
-  command = "env && curl -v https://q42.me && sleep 10 && env"
+  command = "curl -v https://q42.me && env && host api.opticskypro.com"
   ignore = "/bin/false"
 
 [functions]

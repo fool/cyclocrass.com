@@ -33,7 +33,6 @@
     "gatsby-plugin-sharp": "^5.9.0",
     "gatsby-plugin-sitemap": "^6.9.0",
     "gatsby-plugin-utils": "^4.9.0",
-    "gatsby-source-custom-api": "^2.3.6",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-source-wordpress": "^7.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
